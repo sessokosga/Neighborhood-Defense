@@ -1,0 +1,50 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://cmwl3wapab01v"]
+
+[ext_resource type="Texture2D" uid="uid://c83hlcd32ed4a" path="res://assets/Towers/Tower Sniper/TowerSniper_Lv01.png" id="1_noh0t"]
+[ext_resource type="Texture2D" uid="uid://bsi1f6j6xifpy" path="res://assets/Towers/Tower Sniper/TowerSniper_Lv02.png" id="2_pmwa5"]
+[ext_resource type="Texture2D" uid="uid://c7ottkuj5soup" path="res://assets/Towers/Tower Sniper/TowerSniper_Lv03.png" id="3_sb2vb"]
+[ext_resource type="Texture2D" uid="uid://catgw8x03t53v" path="res://assets/Towers/Tower Sniper/TowerSniper_Lv04.png" id="4_e83kf"]
+[ext_resource type="Texture2D" uid="uid://j315pd7wv7lj" path="res://assets/Towers/Tower Sniper/TowerSniper_Lv05.png" id="5_7a1le"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_noh0t")
+}],
+"loop": false,
+"name": &"level_1",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_pmwa5")
+}],
+"loop": false,
+"name": &"level_2",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_sb2vb")
+}],
+"loop": false,
+"name": &"level_3",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_e83kf")
+}],
+"loop": false,
+"name": &"level_4",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_7a1le")
+}],
+"loop": true,
+"name": &"level_5",
+"speed": 5.0
+}]

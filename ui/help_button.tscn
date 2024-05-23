@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://ciqnd1o73ehqw"]
+
+[ext_resource type="Texture2D" uid="uid://cgjpm3dp6h7f1" path="res://assets/Level Select/Artboard 3 copy 7.png" id="1_7dtng"]
+[ext_resource type="Texture2D" uid="uid://jk55gykse562" path="res://assets/Level Select/Artboard 3 copy 9.png" id="2_i4q8d"]
+
+[node name="Help" type="TextureButton"]
+custom_minimum_size = Vector2(188, 182)
+offset_right = 188.0
+offset_bottom = 182.0
+texture_normal = ExtResource("1_7dtng")
+texture_pressed = ExtResource("2_i4q8d")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="."]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 14.0
+offset_top = 90.0
+offset_right = 166.0
+offset_bottom = 137.0
+theme_type_variation = &"TextButtonLabel"
+text = "help"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true

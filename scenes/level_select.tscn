@@ -1,0 +1,644 @@
+[gd_scene load_steps=34 format=3 uid="uid://mr0730vqbuvh"]
+
+[ext_resource type="Script" path="res://scripts/level_select.gd" id="1_7lu2q"]
+[ext_resource type="Texture2D" uid="uid://c1cbpvatwos7p" path="res://assets/Level Select/LevelSelect.png" id="2_s8qgc"]
+[ext_resource type="Texture2D" uid="uid://ciburgtjedn5w" path="res://assets/Level Select/Artboard 24.png" id="3_w71f2"]
+[ext_resource type="PackedScene" uid="uid://bay33pq0w2wka" path="res://scenes/level_item.tscn" id="4_ixram"]
+[ext_resource type="Texture2D" uid="uid://bb6g6g6807yu1" path="res://assets/Level Select/Artboard 3 copy 2.png" id="5_w3jri"]
+[ext_resource type="Texture2D" uid="uid://cemw7hntai5wv" path="res://assets/Level Select/Artboard 3 copy 5.png" id="6_xv7ur"]
+[ext_resource type="PackedScene" path="res://ui/help_button.tscn" id="7_w4vjj"]
+[ext_resource type="PackedScene" path="res://ui/upgrade_button.tscn" id="8_ew7qc"]
+[ext_resource type="Texture2D" uid="uid://crw5ssus32652" path="res://assets/Upgrade and help popup/Artboard 4.png" id="9_hlmld"]
+[ext_resource type="PackedScene" path="res://ui/close.tscn" id="10_r5ngs"]
+[ext_resource type="PackedScene" path="res://ui/upgrade_item.tscn" id="11_ebfod"]
+[ext_resource type="Texture2D" uid="uid://oqa4p7460y3b" path="res://assets/Upgrade and help popup/archer.png" id="11_jpb6j"]
+[ext_resource type="StyleBox" uid="uid://b7jyupi43w3qq" path="res://theme/panel_style_box.tres" id="11_n27wx"]
+[ext_resource type="Texture2D" uid="uid://b67sn6x4hnc03" path="res://assets/Upgrade and help popup/archer_pressed.png" id="12_h3tr5"]
+[ext_resource type="Texture2D" uid="uid://c7a0s7aqbx30m" path="res://assets/Upgrade and help popup/Artboard 17.png" id="12_pquua"]
+[ext_resource type="Texture2D" uid="uid://hr4idv7vghhh" path="res://assets/Upgrade and help popup/bomber.png" id="13_wfcbi"]
+[ext_resource type="Texture2D" uid="uid://dc4kiy5l48ehk" path="res://assets/Upgrade and help popup/bomber_pressed.png" id="14_y1cgw"]
+[ext_resource type="PackedScene" path="res://ui/upgrade_tab.tscn" id="14_yc5ya"]
+[ext_resource type="Texture2D" uid="uid://cv8vuf5bojots" path="res://assets/Upgrade and help popup/electric.png" id="15_stwiu"]
+[ext_resource type="Texture2D" uid="uid://cysbxbe3ngx1m" path="res://assets/Upgrade and help popup/electric_pressed.png" id="16_57ndl"]
+[ext_resource type="Texture2D" uid="uid://nv6m1qd5akdv" path="res://assets/Upgrade and help popup/Artboard 23.png" id="19_bvskv"]
+[ext_resource type="Texture2D" uid="uid://cxvme75eckd83" path="res://assets/Upgrade and help popup/Artboard 23 copy.png" id="20_pyv01"]
+[ext_resource type="Texture2D" uid="uid://bxxnelkon3lnh" path="res://assets/Upgrade and help popup/Artboard 23 copy 4.png" id="21_2pidy"]
+[ext_resource type="Texture2D" uid="uid://dm74opdss7e8f" path="res://assets/Upgrade and help popup/Artboard 23 copy 3.png" id="22_vci1a"]
+[ext_resource type="Texture2D" uid="uid://caqbfx2up5qh7" path="res://assets/Upgrade and help popup/Artboard 23 copy 5.png" id="23_14oi7"]
+[ext_resource type="Texture2D" uid="uid://cujhperxdu1mi" path="res://assets/Upgrade and help popup/Artboard 5.png" id="26_cvyxi"]
+[ext_resource type="Texture2D" uid="uid://dpcflf58jai2f" path="res://assets/Upgrade and help popup/sniper_pressed.png" id="26_r8lit"]
+[ext_resource type="PackedScene" uid="uid://x15if6p4oqa5" path="res://scenes/dot.tscn" id="27_rwadw"]
+[ext_resource type="SpriteFrames" uid="uid://cmwl3wapab01v" path="res://scenes/towers_animations/sniper_tower.tres" id="28_5n888"]
+[ext_resource type="Script" path="res://scripts/tower.gd" id="28_uawo5"]
+[ext_resource type="SpriteFrames" uid="uid://dtgbon3o7702t" path="res://scenes/towers_animations/archer.tres" id="29_fkrrg"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_40hvh"]
+radius = 150.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_npq0n"]
+size = Vector2(149, 198)
+
+[node name="LevelSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7lu2q")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_s8qgc")
+expand_mode = 1
+
+[node name="Title" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -349.5
+offset_right = 349.5
+offset_bottom = 188.0
+grow_horizontal = 2
+texture = ExtResource("3_w71f2")
+
+[node name="Label" type="Label" parent="Title"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"TitleBold"
+text = "Level Select"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Levels" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Level_001" parent="Levels" instance=ExtResource("4_ixram")]
+layout_mode = 0
+offset_left = 184.0
+offset_top = 587.0
+offset_right = 329.0
+offset_bottom = 732.0
+focus_neighbor_right = NodePath("../Level_002")
+disabled = false
+texture_normal = ExtResource("5_w3jri")
+texture_pressed = ExtResource("6_xv7ur")
+active = true
+
+[node name="Level_002" parent="Levels" instance=ExtResource("4_ixram")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 321.0
+offset_top = 431.0
+offset_right = 466.0
+offset_bottom = 576.0
+focus_neighbor_left = NodePath("../Level_001")
+level = 2
+stars = 3
+
+[node name="Level_003" parent="Levels" instance=ExtResource("4_ixram")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 477.0
+offset_top = 283.0
+offset_right = 622.0
+offset_bottom = 428.0
+level = 3
+stars = 2
+
+[node name="Level_004" parent="Levels" instance=ExtResource("4_ixram")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 734.0
+offset_top = 298.0
+offset_right = 879.0
+offset_bottom = 443.0
+level = 4
+stars = 1
+
+[node name="Level_005" parent="Levels" instance=ExtResource("4_ixram")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 742.0
+offset_top = 577.0
+offset_right = 887.0
+offset_bottom = 722.0
+level = 5
+stars = 2
+
+[node name="Level_006" parent="Levels" instance=ExtResource("4_ixram")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 997.0
+offset_top = 584.0
+offset_right = 1142.0
+offset_bottom = 729.0
+level = 6
+
+[node name="Level_007" parent="Levels" instance=ExtResource("4_ixram")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 1156.0
+offset_top = 474.0
+offset_right = 1301.0
+offset_bottom = 619.0
+level = 7
+
+[node name="Level_008" parent="Levels" instance=ExtResource("4_ixram")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 1288.0
+offset_top = 283.0
+offset_right = 1433.0
+offset_bottom = 428.0
+level = 8
+
+[node name="Level_009" parent="Levels" instance=ExtResource("4_ixram")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 1461.0
+offset_top = 390.0
+offset_right = 1606.0
+offset_bottom = 535.0
+level = 9
+
+[node name="Level_010" parent="Levels" instance=ExtResource("4_ixram")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 1582.0
+offset_top = 579.0
+offset_right = 1727.0
+offset_bottom = 724.0
+level = 10
+
+[node name="Level_011" parent="Levels" instance=ExtResource("4_ixram")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 1821.0
+offset_top = 584.0
+offset_right = 1966.0
+offset_bottom = 729.0
+level = 11
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 1403.0
+offset_top = 803.0
+offset_right = 1783.0
+offset_bottom = 985.0
+
+[node name="Upgrade" parent="HBoxContainer" instance=ExtResource("8_ew7qc")]
+layout_mode = 2
+
+[node name="Help" parent="HBoxContainer" instance=ExtResource("7_w4vjj")]
+layout_mode = 2
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="HUD"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("9_hlmld")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Upgrade" type="Control" parent="HUD"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 55.0
+offset_right = 55.0
+
+[node name="Tab" type="Control" parent="HUD/Upgrade"]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Archer" parent="HUD/Upgrade/Tab" instance=ExtResource("14_yc5ya")]
+z_index = 1
+layout_mode = 2
+offset_left = 485.0
+offset_top = 200.0
+offset_right = 585.0
+offset_bottom = 300.0
+button_pressed = true
+texture_normal = ExtResource("11_jpb6j")
+texture_pressed = ExtResource("12_h3tr5")
+initial_position = Vector2(485, 218)
+
+[node name="Bomber" parent="HUD/Upgrade/Tab" instance=ExtResource("14_yc5ya")]
+layout_mode = 2
+offset_left = 600.0
+offset_top = 218.0
+offset_right = 700.0
+offset_bottom = 318.0
+texture_normal = ExtResource("13_wfcbi")
+texture_pressed = ExtResource("14_y1cgw")
+type = 1
+initial_position = Vector2(600, 218)
+
+[node name="Sniper" parent="HUD/Upgrade/Tab" instance=ExtResource("14_yc5ya")]
+layout_mode = 2
+offset_left = 715.0
+offset_top = 218.0
+offset_right = 815.0
+offset_bottom = 318.0
+type = 3
+initial_position = Vector2(715, 218)
+
+[node name="Electric" parent="HUD/Upgrade/Tab" instance=ExtResource("14_yc5ya")]
+layout_mode = 2
+offset_left = 830.0
+offset_top = 218.0
+offset_right = 930.0
+offset_bottom = 318.0
+texture_normal = ExtResource("15_stwiu")
+texture_pressed = ExtResource("16_57ndl")
+type = 2
+initial_position = Vector2(830, 218)
+
+[node name="PanelContainer" type="PanelContainer" parent="HUD/Upgrade"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 346.0
+offset_top = 279.0
+offset_right = 1393.0
+offset_bottom = 860.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = ExtResource("11_n27wx")
+
+[node name="FlowContainer" type="FlowContainer" parent="HUD/Upgrade/PanelContainer"]
+layout_mode = 2
+size_flags_vertical = 8
+theme_override_constants/h_separation = 30
+theme_override_constants/v_separation = 10
+alignment = 1
+
+[node name="Damage" parent="HUD/Upgrade/PanelContainer/FlowContainer" groups=["upgrade"] instance=ExtResource("11_ebfod")]
+unique_name_in_owner = true
+layout_mode = 2
+type = 1
+
+[node name="Icon" parent="HUD/Upgrade/PanelContainer/FlowContainer/Damage" index="1"]
+texture = ExtResource("19_bvskv")
+
+[node name="Label" parent="HUD/Upgrade/PanelContainer/FlowContainer/Damage" index="3"]
+text = "Damage"
+
+[node name="Range" parent="HUD/Upgrade/PanelContainer/FlowContainer" groups=["upgrade"] instance=ExtResource("11_ebfod")]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="Velocity" parent="HUD/Upgrade/PanelContainer/FlowContainer" groups=["upgrade"] instance=ExtResource("11_ebfod")]
+unique_name_in_owner = true
+layout_mode = 2
+type = 2
+
+[node name="Icon" parent="HUD/Upgrade/PanelContainer/FlowContainer/Velocity" index="1"]
+texture = ExtResource("20_pyv01")
+
+[node name="Label" parent="HUD/Upgrade/PanelContainer/FlowContainer/Velocity" index="3"]
+text = "Velocity"
+
+[node name="Target" parent="HUD/Upgrade/PanelContainer/FlowContainer" groups=["upgrade"] instance=ExtResource("11_ebfod")]
+unique_name_in_owner = true
+layout_mode = 2
+type = 3
+
+[node name="Icon" parent="HUD/Upgrade/PanelContainer/FlowContainer/Target" index="1"]
+texture = ExtResource("21_2pidy")
+
+[node name="Label" parent="HUD/Upgrade/PanelContainer/FlowContainer/Target" index="3"]
+text = "Target"
+
+[node name="AttackSpeed" parent="HUD/Upgrade/PanelContainer/FlowContainer" groups=["upgrade"] instance=ExtResource("11_ebfod")]
+unique_name_in_owner = true
+layout_mode = 2
+type = 5
+
+[node name="Icon" parent="HUD/Upgrade/PanelContainer/FlowContainer/AttackSpeed" index="1"]
+texture = ExtResource("22_vci1a")
+
+[node name="Label" parent="HUD/Upgrade/PanelContainer/FlowContainer/AttackSpeed" index="3"]
+text = "Attack Speed"
+
+[node name="Accuracy" parent="HUD/Upgrade/PanelContainer/FlowContainer" groups=["upgrade"] instance=ExtResource("11_ebfod")]
+unique_name_in_owner = true
+layout_mode = 2
+type = 4
+
+[node name="Icon" parent="HUD/Upgrade/PanelContainer/FlowContainer/Accuracy" index="1"]
+texture = ExtResource("23_14oi7")
+
+[node name="Label" parent="HUD/Upgrade/PanelContainer/FlowContainer/Accuracy" index="3"]
+text = "Accuracy"
+
+[node name="CloseUpgrade" parent="HUD/Upgrade" instance=ExtResource("10_r5ngs")]
+layout_mode = 0
+offset_left = 1335.0
+offset_top = 241.0
+offset_right = 1445.0
+offset_bottom = 343.0
+
+[node name="TextureRect2" type="TextureRect" parent="HUD/Upgrade"]
+layout_mode = 0
+offset_top = 72.0
+offset_right = 40.0
+offset_bottom = 112.0
+
+[node name="Money" type="TextureRect" parent="HUD/Upgrade"]
+layout_mode = 0
+offset_left = 1135.0
+offset_top = 238.0
+offset_right = 1313.0
+offset_bottom = 332.0
+texture = ExtResource("12_pquua")
+expand_mode = 1
+
+[node name="Money" type="Label" parent="HUD/Upgrade/Money"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 28.0
+offset_top = 30.0
+offset_right = 144.0
+offset_bottom = 80.0
+theme_type_variation = &"MoneyLabel"
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 40
+text = "10"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Help" type="Control" parent="HUD"]
+unique_name_in_owner = true
+auto_translate_mode = 1
+visible = false
+layout_mode = 3
+anchors_preset = 0
+offset_left = 55.0
+offset_right = 55.0
+
+[node name="TabHelp" type="Control" parent="HUD/Help"]
+unique_name_in_owner = true
+auto_translate_mode = 1
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Archer" parent="HUD/Help/TabHelp" instance=ExtResource("14_yc5ya")]
+z_index = 1
+layout_mode = 2
+offset_left = 485.0
+offset_top = 200.0
+offset_right = 585.0
+offset_bottom = 300.0
+button_pressed = true
+texture_normal = ExtResource("11_jpb6j")
+texture_pressed = ExtResource("12_h3tr5")
+texture_disabled = ExtResource("12_h3tr5")
+initial_position = Vector2(485, 218)
+
+[node name="Bomber" parent="HUD/Help/TabHelp" instance=ExtResource("14_yc5ya")]
+layout_mode = 2
+offset_left = 600.0
+offset_top = 218.0
+offset_right = 700.0
+offset_bottom = 318.0
+texture_normal = ExtResource("13_wfcbi")
+texture_pressed = ExtResource("14_y1cgw")
+texture_disabled = ExtResource("14_y1cgw")
+type = 1
+initial_position = Vector2(600, 218)
+
+[node name="Sniper" parent="HUD/Help/TabHelp" instance=ExtResource("14_yc5ya")]
+layout_mode = 2
+offset_left = 715.0
+offset_top = 218.0
+offset_right = 815.0
+offset_bottom = 318.0
+texture_disabled = ExtResource("26_r8lit")
+type = 3
+initial_position = Vector2(715, 218)
+
+[node name="Electric" parent="HUD/Help/TabHelp" instance=ExtResource("14_yc5ya")]
+layout_mode = 2
+offset_left = 830.0
+offset_top = 218.0
+offset_right = 930.0
+offset_bottom = 318.0
+texture_normal = ExtResource("15_stwiu")
+texture_pressed = ExtResource("16_57ndl")
+texture_disabled = ExtResource("16_57ndl")
+type = 2
+initial_position = Vector2(830, 218)
+
+[node name="PanelContainer" type="PanelContainer" parent="HUD/Help"]
+auto_translate_mode = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 346.0
+offset_top = 279.0
+offset_right = 1393.0
+offset_bottom = 880.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = ExtResource("11_n27wx")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HUD/Help/PanelContainer"]
+layout_mode = 2
+theme_override_constants/separation = 70
+
+[node name="Control" type="Control" parent="HUD/Help/PanelContainer/HBoxContainer"]
+custom_minimum_size = Vector2(310, 501)
+layout_mode = 2
+
+[node name="Bacground" type="TextureRect" parent="HUD/Help/PanelContainer/HBoxContainer/Control"]
+layout_mode = 0
+offset_left = 5.0
+offset_top = -4.0
+offset_right = 304.0
+offset_bottom = 497.0
+texture = ExtResource("26_cvyxi")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="LevelTitle" type="Label" parent="HUD/Help/PanelContainer/HBoxContainer/Control"]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 30.0
+offset_top = 7.0
+offset_right = 285.0
+offset_bottom = 70.0
+theme_type_variation = &"UpgradeLabel"
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 0
+text = "Level 1"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true
+
+[node name="Dots" type="Control" parent="HUD/Help/PanelContainer/HBoxContainer/Control"]
+unique_name_in_owner = true
+layout_mode = 2
+anchors_preset = 0
+offset_left = 87.0
+offset_top = 429.0
+offset_right = 217.0
+offset_bottom = 479.0
+
+[node name="Level_01" parent="HUD/Help/PanelContainer/HBoxContainer/Control/Dots" instance=ExtResource("27_rwadw")]
+layout_mode = 0
+offset_left = 5.0
+offset_top = 18.0
+offset_right = 21.0
+offset_bottom = 33.0
+button_pressed = true
+
+[node name="Level_02" parent="HUD/Help/PanelContainer/HBoxContainer/Control/Dots" instance=ExtResource("27_rwadw")]
+layout_mode = 0
+offset_left = 31.0
+offset_top = 18.0
+offset_right = 47.0
+offset_bottom = 33.0
+
+[node name="Level_03" parent="HUD/Help/PanelContainer/HBoxContainer/Control/Dots" instance=ExtResource("27_rwadw")]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 18.0
+offset_right = 72.0
+offset_bottom = 33.0
+
+[node name="Level_04" parent="HUD/Help/PanelContainer/HBoxContainer/Control/Dots" instance=ExtResource("27_rwadw")]
+layout_mode = 0
+offset_left = 82.0
+offset_top = 18.0
+offset_right = 98.0
+offset_bottom = 33.0
+
+[node name="Level_05" parent="HUD/Help/PanelContainer/HBoxContainer/Control/Dots" instance=ExtResource("27_rwadw")]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 18.0
+offset_right = 124.0
+offset_bottom = 33.0
+
+[node name="Tower" type="Area2D" parent="HUD/Help/PanelContainer/HBoxContainer/Control"]
+unique_name_in_owner = true
+position = Vector2(143, 202)
+script = ExtResource("28_uawo5")
+is_display_only = true
+metadata/_edit_group_ = true
+
+[node name="Building" type="AnimatedSprite2D" parent="HUD/Help/PanelContainer/HBoxContainer/Control/Tower"]
+position = Vector2(11, 39)
+sprite_frames = ExtResource("28_5n888")
+animation = &"level_1"
+
+[node name="Soldier" type="AnimatedSprite2D" parent="HUD/Help/PanelContainer/HBoxContainer/Control/Tower"]
+position = Vector2(4, 16)
+sprite_frames = ExtResource("29_fkrrg")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="Range" type="CollisionShape2D" parent="HUD/Help/PanelContainer/HBoxContainer/Control/Tower"]
+visible = false
+position = Vector2(6, 53)
+shape = SubResource("CircleShape2D_40hvh")
+debug_color = Color(0, 0.6, 0.701961, 0.266667)
+
+[node name="RangeMouse" type="CollisionShape2D" parent="HUD/Help/PanelContainer/HBoxContainer/Control/Tower"]
+visible = false
+position = Vector2(145, 232)
+shape = SubResource("RectangleShape2D_npq0n")
+debug_color = Color(0, 0.6, 0.701961, 0.266667)
+
+[node name="Control2" type="Control" parent="HUD/Help/PanelContainer/HBoxContainer"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HUD/Help/PanelContainer/HBoxContainer/Control2"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 49.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 14
+
+[node name="HelpTitle" type="Label" parent="HUD/Help/PanelContainer/HBoxContainer/Control2/VBoxContainer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_type_variation = &"TitleBold"
+theme_override_constants/outline_size = 12
+theme_override_font_sizes/font_size = 40
+text = "Archer Tower"
+vertical_alignment = 1
+uppercase = true
+
+[node name="Text" type="Label" parent="HUD/Help/PanelContainer/HBoxContainer/Control2/VBoxContainer"]
+auto_translate_mode = 1
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"UpgradeLabel"
+theme_override_colors/font_color = Color(0, 0, 0, 0.654902)
+theme_override_constants/outline_size = 0
+theme_override_font_sizes/font_size = 25
+text = "Lorem ipsum dolore"
+
+[node name="CloseUpgrade" parent="HUD/Help" instance=ExtResource("10_r5ngs")]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 1335.0
+offset_top = 241.0
+offset_right = 1445.0
+offset_bottom = 343.0
+
+[node name="TextureRect2" type="TextureRect" parent="HUD/Help"]
+auto_translate_mode = 1
+layout_mode = 0
+offset_top = 72.0
+offset_right = 40.0
+offset_bottom = 112.0
+
+[connection signal="pressed" from="HBoxContainer/Upgrade" to="." method="_on_upgrade_pressed"]
+[connection signal="pressed" from="HBoxContainer/Help" to="." method="_on_help_pressed"]
+[connection signal="pressed" from="HUD/Upgrade/CloseUpgrade" to="." method="_on_close_upgrade_pressed"]
+[connection signal="body_entered" from="HUD/Help/PanelContainer/HBoxContainer/Control/Tower" to="HUD/Help/PanelContainer/HBoxContainer/Control/Tower" method="_on_body_entered"]
+[connection signal="body_exited" from="HUD/Help/PanelContainer/HBoxContainer/Control/Tower" to="HUD/Help/PanelContainer/HBoxContainer/Control/Tower" method="_on_body_exited"]
+[connection signal="pressed" from="HUD/Help/CloseUpgrade" to="." method="_on_close_upgrade_pressed"]
+
+[editable path="HUD/Upgrade/PanelContainer/FlowContainer/Damage"]
+[editable path="HUD/Upgrade/PanelContainer/FlowContainer/Velocity"]
+[editable path="HUD/Upgrade/PanelContainer/FlowContainer/Target"]
+[editable path="HUD/Upgrade/PanelContainer/FlowContainer/AttackSpeed"]
+[editable path="HUD/Upgrade/PanelContainer/FlowContainer/Accuracy"]

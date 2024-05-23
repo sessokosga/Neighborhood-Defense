@@ -1,0 +1,395 @@
+[gd_resource type="SpriteFrames" load_steps=91 format=3 uid="uid://cqlqafhpt2r3o"]
+
+[ext_resource type="Texture2D" uid="uid://d0q67lolp5w1o" path="res://assets/Towers/Tower Sniper/Idle/Sniper Tower-Idle_00.png" id="1_wh2ol"]
+[ext_resource type="Texture2D" uid="uid://ci60kypxtm6fw" path="res://assets/Towers/Tower Sniper/Idle/Sniper Tower-Idle_01.png" id="2_glfgt"]
+[ext_resource type="Texture2D" uid="uid://dur8tpabpi4ge" path="res://assets/Towers/Tower Sniper/Idle/Sniper Tower-Idle_02.png" id="3_08vp3"]
+[ext_resource type="Texture2D" uid="uid://c377o1wmtw204" path="res://assets/Towers/Tower Sniper/Idle/Sniper Tower-Idle_03.png" id="4_vnjff"]
+[ext_resource type="Texture2D" uid="uid://ro60oh8jbfke" path="res://assets/Towers/Tower Sniper/Idle/Sniper Tower-Idle_04.png" id="5_c2wpv"]
+[ext_resource type="Texture2D" uid="uid://c5k3m881e1tfr" path="res://assets/Towers/Tower Sniper/Idle/Sniper Tower-Idle_05.png" id="6_v0npi"]
+[ext_resource type="Texture2D" uid="uid://bec1oij1tqoxo" path="res://assets/Towers/Tower Sniper/Idle/Sniper Tower-Idle_06.png" id="7_ftyrn"]
+[ext_resource type="Texture2D" uid="uid://6p7lqqh6x7ps" path="res://assets/Towers/Tower Sniper/Idle/Sniper Tower-Idle_07.png" id="8_quvhe"]
+[ext_resource type="Texture2D" uid="uid://cri7xpy3hejs5" path="res://assets/Towers/Tower Sniper/Idle/Sniper Tower-Idle_08.png" id="9_gt5hb"]
+[ext_resource type="Texture2D" uid="uid://dgnkc3wk3il26" path="res://assets/Towers/Tower Sniper/Idle/Sniper Tower-Idle_09.png" id="10_bvvud"]
+[ext_resource type="Texture2D" uid="uid://c2lvmgt1qugkh" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_00.png" id="11_ym1mn"]
+[ext_resource type="Texture2D" uid="uid://d040nis740fj8" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_01.png" id="12_al513"]
+[ext_resource type="Texture2D" uid="uid://du4ms4llyh4p2" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_02.png" id="13_xts3a"]
+[ext_resource type="Texture2D" uid="uid://bbjacdu0dv1my" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_03.png" id="14_hfo3w"]
+[ext_resource type="Texture2D" uid="uid://dir1nbqmnfjbc" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_04.png" id="15_671ln"]
+[ext_resource type="Texture2D" uid="uid://bvo55ra6eacra" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_05.png" id="16_5cyhi"]
+[ext_resource type="Texture2D" uid="uid://dqfgwpsq6156x" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_06.png" id="17_mn28n"]
+[ext_resource type="Texture2D" uid="uid://ds18f11po7wwg" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_07.png" id="18_p8git"]
+[ext_resource type="Texture2D" uid="uid://dr27mnyv5yewd" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_08.png" id="19_hx5dm"]
+[ext_resource type="Texture2D" uid="uid://v21gt5pp4e68" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_09.png" id="20_4a0bq"]
+[ext_resource type="Texture2D" uid="uid://bo8ia68l1agrw" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_10.png" id="21_x6j7v"]
+[ext_resource type="Texture2D" uid="uid://b5f0qheypbj6o" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_11.png" id="22_lnq62"]
+[ext_resource type="Texture2D" uid="uid://d1yhn3qdjhnw4" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_12.png" id="23_370gy"]
+[ext_resource type="Texture2D" uid="uid://16t82654yr0t" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_13.png" id="24_jl3gk"]
+[ext_resource type="Texture2D" uid="uid://e2mamgmt2hiu" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_14.png" id="25_tamgt"]
+[ext_resource type="Texture2D" uid="uid://iw3vh5byq4av" path="res://assets/Towers/Tower Sniper/ShootBot01/Sniper Tower-Shoot Bot01_15.png" id="26_qhxlp"]
+[ext_resource type="Texture2D" uid="uid://cfi3lyhtwf4gp" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_00.png" id="27_syct5"]
+[ext_resource type="Texture2D" uid="uid://di18yqema0qa3" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_01.png" id="28_y5lpf"]
+[ext_resource type="Texture2D" uid="uid://bi0wcsc5wupp8" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_02.png" id="29_1mc61"]
+[ext_resource type="Texture2D" uid="uid://8e7aao2uywqw" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_03.png" id="30_hk4li"]
+[ext_resource type="Texture2D" uid="uid://cv67iwewt2mog" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_04.png" id="31_remlb"]
+[ext_resource type="Texture2D" uid="uid://okgfmwnjma1c" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_05.png" id="32_1p6f2"]
+[ext_resource type="Texture2D" uid="uid://d2vfbb1ir3n1u" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_06.png" id="33_t6mgh"]
+[ext_resource type="Texture2D" uid="uid://dv3uvm7ojjif" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_07.png" id="34_desxx"]
+[ext_resource type="Texture2D" uid="uid://b0264aqshniuk" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_08.png" id="35_xm07p"]
+[ext_resource type="Texture2D" uid="uid://7b40g8mesugs" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_09.png" id="36_rsyjj"]
+[ext_resource type="Texture2D" uid="uid://dqnerm408nuau" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_10.png" id="37_6qleh"]
+[ext_resource type="Texture2D" uid="uid://dl80coagl4cls" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_11.png" id="38_bwyom"]
+[ext_resource type="Texture2D" uid="uid://bsjbk1gixdby6" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_12.png" id="39_eggn1"]
+[ext_resource type="Texture2D" uid="uid://cwnd17y0myolr" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_13.png" id="40_vkk8d"]
+[ext_resource type="Texture2D" uid="uid://d4e2xnfdwox73" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_14.png" id="41_sarth"]
+[ext_resource type="Texture2D" uid="uid://cr2yfpdq4ii82" path="res://assets/Towers/Tower Sniper/ShootBot02/Sniper Tower-Shoot Bot02_15.png" id="42_87diw"]
+[ext_resource type="Texture2D" uid="uid://cesrwnrcsm1tn" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_00.png" id="43_3jdvk"]
+[ext_resource type="Texture2D" uid="uid://diqxv3iadtyga" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_01.png" id="44_mdqev"]
+[ext_resource type="Texture2D" uid="uid://cdnb2cjpuuubt" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_02.png" id="45_w82d3"]
+[ext_resource type="Texture2D" uid="uid://dp06swltqdt0" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_03.png" id="46_uickp"]
+[ext_resource type="Texture2D" uid="uid://dypt74ncnfde6" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_04.png" id="47_3td2d"]
+[ext_resource type="Texture2D" uid="uid://cj1vysxtfruw1" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_05.png" id="48_vkl3q"]
+[ext_resource type="Texture2D" uid="uid://qrrx1ufal1f6" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_06.png" id="49_on0jg"]
+[ext_resource type="Texture2D" uid="uid://bgwc5ot8to44c" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_07.png" id="50_pjhta"]
+[ext_resource type="Texture2D" uid="uid://igld6wjorw4l" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_08.png" id="51_0ncmj"]
+[ext_resource type="Texture2D" uid="uid://c0qopj2l0b8nf" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_09.png" id="52_ivhgk"]
+[ext_resource type="Texture2D" uid="uid://dxqvdds5t1ynf" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_10.png" id="53_yikhy"]
+[ext_resource type="Texture2D" uid="uid://cpwnj10gx0ylc" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_11.png" id="54_63w30"]
+[ext_resource type="Texture2D" uid="uid://va3vgj3u3mxe" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_12.png" id="55_x00lt"]
+[ext_resource type="Texture2D" uid="uid://w10kuueuyv57" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_13.png" id="56_81m0k"]
+[ext_resource type="Texture2D" uid="uid://5on05a3ixiln" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_14.png" id="57_um847"]
+[ext_resource type="Texture2D" uid="uid://c4hpc3higv3aj" path="res://assets/Towers/Tower Sniper/ShootSide/Sniper Tower-Shoot Side_15.png" id="58_0wii4"]
+[ext_resource type="Texture2D" uid="uid://5fdbrm1snwi" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_00.png" id="59_l3nmj"]
+[ext_resource type="Texture2D" uid="uid://cl3lhhiv5okyg" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_01.png" id="60_sbvgs"]
+[ext_resource type="Texture2D" uid="uid://dwf4kqn3dr4nf" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_02.png" id="61_txjiv"]
+[ext_resource type="Texture2D" uid="uid://b8v3rwiigo2he" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_03.png" id="62_a1ias"]
+[ext_resource type="Texture2D" uid="uid://ba2qooaxkyibh" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_04.png" id="63_aixkc"]
+[ext_resource type="Texture2D" uid="uid://dxwtyengmhmfm" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_05.png" id="64_laj1s"]
+[ext_resource type="Texture2D" uid="uid://bcl2jqrs55vs6" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_06.png" id="65_8f8g1"]
+[ext_resource type="Texture2D" uid="uid://u22nmlblfw0l" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_07.png" id="66_t4hqt"]
+[ext_resource type="Texture2D" uid="uid://bpcsukbr3pwqe" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_08.png" id="67_rrfia"]
+[ext_resource type="Texture2D" uid="uid://bjje780oq4ajb" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_09.png" id="68_noigf"]
+[ext_resource type="Texture2D" uid="uid://nylogauwgsm6" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_10.png" id="69_3xg5o"]
+[ext_resource type="Texture2D" uid="uid://bqpavya2itcyo" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_11.png" id="70_cj06o"]
+[ext_resource type="Texture2D" uid="uid://cpu33j7qlqygd" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_12.png" id="71_opmc2"]
+[ext_resource type="Texture2D" uid="uid://bgdyfainxer5q" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_13.png" id="72_abs6l"]
+[ext_resource type="Texture2D" uid="uid://ct8rqq2dkjpsf" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_14.png" id="73_w2voe"]
+[ext_resource type="Texture2D" uid="uid://c00krbv2ym2kf" path="res://assets/Towers/Tower Sniper/ShootTop01/Sniper Tower-Shoot Top01_15.png" id="74_h5d30"]
+[ext_resource type="Texture2D" uid="uid://dnooi7qa0iura" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_00.png" id="75_xcoqx"]
+[ext_resource type="Texture2D" uid="uid://dejskpp4onk3l" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_01.png" id="76_v7vs5"]
+[ext_resource type="Texture2D" uid="uid://xshl0ateie6s" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_02.png" id="77_4p5xq"]
+[ext_resource type="Texture2D" uid="uid://bnyui4nlhfm8k" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_03.png" id="78_g85cq"]
+[ext_resource type="Texture2D" uid="uid://cpm08e2jvhlpr" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_04.png" id="79_ylrea"]
+[ext_resource type="Texture2D" uid="uid://jfipffaq8r64" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_05.png" id="80_l73vt"]
+[ext_resource type="Texture2D" uid="uid://w10k03qaywkt" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_06.png" id="81_uoibg"]
+[ext_resource type="Texture2D" uid="uid://du0w4durkgdbu" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_07.png" id="82_heepa"]
+[ext_resource type="Texture2D" uid="uid://bb2rnej01byfy" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_08.png" id="83_omgqh"]
+[ext_resource type="Texture2D" uid="uid://cv7ox2sbg1o5y" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_09.png" id="84_ngafc"]
+[ext_resource type="Texture2D" uid="uid://dwqcfn7hgq5gf" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_10.png" id="85_06s4j"]
+[ext_resource type="Texture2D" uid="uid://id8t6m70kdjs" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_11.png" id="86_g8dcs"]
+[ext_resource type="Texture2D" uid="uid://c83lpqos3ywe1" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_12.png" id="87_0vroq"]
+[ext_resource type="Texture2D" uid="uid://bkkk7iaxxxmxy" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_13.png" id="88_hrnf3"]
+[ext_resource type="Texture2D" uid="uid://byo162wg45eic" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_14.png" id="89_u44pg"]
+[ext_resource type="Texture2D" uid="uid://0n80jldk6hqg" path="res://assets/Towers/Tower Sniper/ShootTop02/Sniper Tower-Shoot Top02_15.png" id="90_ki4gl"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_wh2ol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_glfgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_08vp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_vnjff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_c2wpv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_v0npi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ftyrn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_quvhe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gt5hb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_bvvud")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_ym1mn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_al513")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xts3a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_hfo3w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_671ln")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_5cyhi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_mn28n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_p8git")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_hx5dm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4a0bq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_x6j7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_lnq62")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_370gy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_jl3gk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_tamgt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_qhxlp")
+}],
+"loop": true,
+"name": &"shoot_bot_1",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_syct5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_y5lpf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_1mc61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_hk4li")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_remlb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_1p6f2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_t6mgh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_desxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_xm07p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_rsyjj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_6qleh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_bwyom")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_eggn1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_vkk8d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_sarth")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_87diw")
+}],
+"loop": true,
+"name": &"shoot_bot_2",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("43_3jdvk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_mdqev")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_w82d3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_uickp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_3td2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_vkl3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_on0jg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_pjhta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_0ncmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_ivhgk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_yikhy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_63w30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_x00lt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_81m0k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_um847")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_0wii4")
+}],
+"loop": true,
+"name": &"shoot_side",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("59_l3nmj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_sbvgs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_txjiv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_a1ias")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_aixkc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_laj1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_8f8g1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_t4hqt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_rrfia")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_noigf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_3xg5o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_cj06o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("71_opmc2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_abs6l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_w2voe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_h5d30")
+}],
+"loop": true,
+"name": &"shoot_top_1",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("75_xcoqx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_v7vs5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_4p5xq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_g85cq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_ylrea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_l73vt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_uoibg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_heepa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_omgqh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_ngafc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_06s4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_g8dcs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_0vroq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_hrnf3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_u44pg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_ki4gl")
+}],
+"loop": true,
+"name": &"shoot_top_2",
+"speed": 20.0
+}]

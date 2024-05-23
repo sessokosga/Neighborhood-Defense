@@ -1,0 +1,6 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://d0f3a3heqyq0c"]
+
+[ext_resource type="FontFile" uid="uid://fg32tr0bxtkp" path="res://assets/fonts/Squada_One/SquadaOne-Regular.ttf" id="1_p08nq"]
+
+[resource]
+base_font = ExtResource("1_p08nq")

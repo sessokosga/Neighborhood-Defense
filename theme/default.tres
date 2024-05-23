@@ -1,0 +1,53 @@
+[gd_resource type="Theme" load_steps=9 format=3 uid="uid://b2rvwobtrdm58"]
+
+[ext_resource type="FontVariation" uid="uid://d0f3a3heqyq0c" path="res://theme/font/squada_one.tres" id="1_pintx"]
+[ext_resource type="FontVariation" uid="uid://bbeu1kvkiptuw" path="res://theme/font/passion_one_bold.tres" id="2_ns6kn"]
+[ext_resource type="FontVariation" uid="uid://d1aex3j32x3a7" path="res://theme/font/passion_one.tres" id="2_wekd7"]
+[ext_resource type="Texture2D" uid="uid://3mfesi2ffl0n" path="res://assets/Upgrade and help popup/Artboard 8.png" id="3_mvbnw"]
+[ext_resource type="Texture2D" uid="uid://ci1lmn12aspsm" path="res://assets/Upgrade and help popup/Artboard 8 copy.png" id="4_b8liv"]
+[ext_resource type="StyleBox" uid="uid://b7jyupi43w3qq" path="res://theme/panel_style_box.tres" id="5_a52i6"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_rx7q2"]
+texture = ExtResource("3_mvbnw")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_mnb7v"]
+texture = ExtResource("4_b8liv")
+
+[resource]
+Button/colors/font_color = Color(1, 0.94902, 0, 1)
+Button/colors/font_outline_color = Color(0, 0, 0, 1)
+Button/font_sizes/font_size = 30
+Label/font_sizes/font_size = 20
+LevelLabel/base_type = &"Label"
+LevelLabel/font_sizes/font_size = 40
+LevelLabel/fonts/font = ExtResource("2_ns6kn")
+MoneyLabel/base_type = &"Label"
+MoneyLabel/colors/font_color = Color(0.984314, 0.690196, 0.25098, 1)
+MoneyLabel/font_sizes/font_size = 30
+MoneyLabel/fonts/font = ExtResource("1_pintx")
+TabBar/styles/tab_selected = SubResource("StyleBoxTexture_rx7q2")
+TabBar/styles/tab_unselected = SubResource("StyleBoxTexture_mnb7v")
+TabContainer/styles/panel = ExtResource("5_a52i6")
+TextButtonLabel/base_type = &"Label"
+TextButtonLabel/colors/font_color = Color(0.431373, 0.141176, 0.141176, 1)
+TextButtonLabel/font_sizes/font_size = 30
+TextButtonLabel/fonts/font = ExtResource("2_ns6kn")
+TitleBold/base_type = &"Label"
+TitleBold/colors/font_color = Color(1, 0.94902, 0, 1)
+TitleBold/colors/font_outline_color = Color(0.00784314, 0.00784314, 0.00784314, 1)
+TitleBold/constants/outline_size = 23
+TitleBold/font_sizes/font_size = 70
+TitleBold/fonts/font = ExtResource("2_ns6kn")
+TitleLabel/base_type = &"Label"
+TitleLabel/colors/font_color = Color(0.984314, 0.690196, 0.25098, 1)
+TitleLabel/font_sizes/font_size = 40
+TitleLabel/fonts/font = ExtResource("2_wekd7")
+UpgradeLabel/base_type = &"Label"
+UpgradeLabel/colors/font_color = Color(0.498039, 0.823529, 0.937255, 1)
+UpgradeLabel/colors/font_outline_color = Color(0.0980392, 0.219608, 0.317647, 1)
+UpgradeLabel/constants/outline_size = 13
+UpgradeLabel/font_sizes/font_size = 40
+UpgradeLabel/fonts/font = ExtResource("1_pintx")
+WaveLabel/base_type = &"Label"
+WaveLabel/font_sizes/font_size = 25
+WaveLabel/fonts/font = ExtResource("2_wekd7")

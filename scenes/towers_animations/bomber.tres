@@ -1,0 +1,655 @@
+[gd_resource type="SpriteFrames" load_steps=151 format=3 uid="uid://be3164lonhsyh"]
+
+[ext_resource type="Texture2D" uid="uid://dk2w7jxcm06ml" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Idle/Bomber Tower-Tower Bomb Lv01_Idle_00.png" id="1_760nv"]
+[ext_resource type="Texture2D" uid="uid://d4f26wp5ntkoq" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Idle/Bomber Tower-Tower Bomb Lv01_Idle_01.png" id="2_8iq58"]
+[ext_resource type="Texture2D" uid="uid://48cqnyiyto1m" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Idle/Bomber Tower-Tower Bomb Lv01_Idle_02.png" id="3_5jtea"]
+[ext_resource type="Texture2D" uid="uid://deasgtj5xv7fw" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Idle/Bomber Tower-Tower Bomb Lv01_Idle_03.png" id="4_53hm3"]
+[ext_resource type="Texture2D" uid="uid://2el4u1atwe6y" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Idle/Bomber Tower-Tower Bomb Lv01_Idle_04.png" id="5_xdkbo"]
+[ext_resource type="Texture2D" uid="uid://d3y1rr8g37e7c" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Idle/Bomber Tower-Tower Bomb Lv01_Idle_05.png" id="6_t3oeu"]
+[ext_resource type="Texture2D" uid="uid://b30umrcrfj2js" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Idle/Bomber Tower-Tower Bomb Lv01_Idle_06.png" id="7_n5ax4"]
+[ext_resource type="Texture2D" uid="uid://cauohv46jeuq5" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Idle/Bomber Tower-Tower Bomb Lv01_Idle_07.png" id="8_088og"]
+[ext_resource type="Texture2D" uid="uid://c164kwoxlas4q" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Idle/Bomber Tower-Tower Bomb Lv01_Idle_08.png" id="9_dk5g6"]
+[ext_resource type="Texture2D" uid="uid://dqfs7riubfj7w" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Idle/Bomber Tower-Tower Bomb Lv01_Idle_09.png" id="10_r0bra"]
+[ext_resource type="Texture2D" uid="uid://kta1w5jcc0tc" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_00.png" id="11_5kccn"]
+[ext_resource type="Texture2D" uid="uid://cwruymvf74pms" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_01.png" id="12_70mao"]
+[ext_resource type="Texture2D" uid="uid://dbhpat5ye5jk" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_02.png" id="13_q00ms"]
+[ext_resource type="Texture2D" uid="uid://bydomkgodfdsk" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_03.png" id="14_r1g5d"]
+[ext_resource type="Texture2D" uid="uid://b3q6n6mdeky6c" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_04.png" id="15_rtv4y"]
+[ext_resource type="Texture2D" uid="uid://bdva631vxrnjk" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_05.png" id="16_5dc4e"]
+[ext_resource type="Texture2D" uid="uid://dvc6layk38ho6" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_06.png" id="17_p12pq"]
+[ext_resource type="Texture2D" uid="uid://dkp6y3c7k4osa" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_07.png" id="18_xffru"]
+[ext_resource type="Texture2D" uid="uid://cgqpkrfpm64jv" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_08.png" id="19_5gtjq"]
+[ext_resource type="Texture2D" uid="uid://vxb3fjb6tx2e" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_09.png" id="20_527pr"]
+[ext_resource type="Texture2D" uid="uid://be4vnnjv5ucsk" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_10.png" id="21_lj5cr"]
+[ext_resource type="Texture2D" uid="uid://qieuqnb87pqk" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_11.png" id="22_dbd6e"]
+[ext_resource type="Texture2D" uid="uid://i6gjsyb8woy2" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_12.png" id="23_volam"]
+[ext_resource type="Texture2D" uid="uid://vwyhi7varydj" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_13.png" id="24_k044a"]
+[ext_resource type="Texture2D" uid="uid://sng1ays2o0cx" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_14.png" id="25_xpruw"]
+[ext_resource type="Texture2D" uid="uid://bxctnq4f658u6" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_15.png" id="26_nns43"]
+[ext_resource type="Texture2D" uid="uid://wr83bq72dr5j" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_16.png" id="27_dfxsp"]
+[ext_resource type="Texture2D" uid="uid://c5niixm5nbwjo" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_17.png" id="28_tttbu"]
+[ext_resource type="Texture2D" uid="uid://b8uh8c73r1u4u" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_18.png" id="29_56eaw"]
+[ext_resource type="Texture2D" uid="uid://blmu3w6tfhorl" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl01 Shoot/Bomber Tower-Tower Bomb Lv01_Shoot_19.png" id="30_60v8x"]
+[ext_resource type="Texture2D" uid="uid://dmp53rrie1ruq" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Idle/Bomber Tower-Tower Bomb Lv02_Idle_00.png" id="31_u3fgq"]
+[ext_resource type="Texture2D" uid="uid://ba3e2tgt5rd26" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Idle/Bomber Tower-Tower Bomb Lv02_Idle_01.png" id="32_8ooya"]
+[ext_resource type="Texture2D" uid="uid://b25djepy53mao" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Idle/Bomber Tower-Tower Bomb Lv02_Idle_02.png" id="33_o3llr"]
+[ext_resource type="Texture2D" uid="uid://b3rpfk5i3uq1m" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Idle/Bomber Tower-Tower Bomb Lv02_Idle_03.png" id="34_n7g8g"]
+[ext_resource type="Texture2D" uid="uid://cgyfr2rh7uq1x" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Idle/Bomber Tower-Tower Bomb Lv02_Idle_04.png" id="35_6ui4e"]
+[ext_resource type="Texture2D" uid="uid://br2qo3a7ho1iw" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Idle/Bomber Tower-Tower Bomb Lv02_Idle_05.png" id="36_cca4n"]
+[ext_resource type="Texture2D" uid="uid://t48lx5rfgxc5" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Idle/Bomber Tower-Tower Bomb Lv02_Idle_06.png" id="37_gkmg0"]
+[ext_resource type="Texture2D" uid="uid://d2q6snmprsbpe" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Idle/Bomber Tower-Tower Bomb Lv02_Idle_07.png" id="38_dh0ni"]
+[ext_resource type="Texture2D" uid="uid://beehugik5qfpv" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Idle/Bomber Tower-Tower Bomb Lv02_Idle_08.png" id="39_guun0"]
+[ext_resource type="Texture2D" uid="uid://pesjrm8mejn3" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Idle/Bomber Tower-Tower Bomb Lv02_Idle_09.png" id="40_b1u6b"]
+[ext_resource type="Texture2D" uid="uid://d08gtbhm65wu7" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_00.png" id="41_g136s"]
+[ext_resource type="Texture2D" uid="uid://ct6caq4l781ne" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_01.png" id="42_vr30m"]
+[ext_resource type="Texture2D" uid="uid://bcqm3fb7n2xrb" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_02.png" id="43_xrhtr"]
+[ext_resource type="Texture2D" uid="uid://bn8xupo1w441a" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_03.png" id="44_oon55"]
+[ext_resource type="Texture2D" uid="uid://djodjx8pq1cba" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_04.png" id="45_o4xrm"]
+[ext_resource type="Texture2D" uid="uid://dmktry37k6os2" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_05.png" id="46_h5qko"]
+[ext_resource type="Texture2D" uid="uid://bkyy8gph4q0p1" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_06.png" id="47_7hxr0"]
+[ext_resource type="Texture2D" uid="uid://cdjdgavfuotwe" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_07.png" id="48_rn74v"]
+[ext_resource type="Texture2D" uid="uid://bkuxmhvadiwnu" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_08.png" id="49_bb43w"]
+[ext_resource type="Texture2D" uid="uid://b2mxe5ngi2dxj" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_09.png" id="50_b6gsv"]
+[ext_resource type="Texture2D" uid="uid://dcjx5cxpd6s1l" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_10.png" id="51_23jr8"]
+[ext_resource type="Texture2D" uid="uid://dsko08t6pttow" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_11.png" id="52_43eqv"]
+[ext_resource type="Texture2D" uid="uid://cyugdoolfr28y" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_12.png" id="53_ukldg"]
+[ext_resource type="Texture2D" uid="uid://1jvlbs34gvch" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_13.png" id="54_j5q8y"]
+[ext_resource type="Texture2D" uid="uid://cgpjlhadbjep8" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_14.png" id="55_aq2ft"]
+[ext_resource type="Texture2D" uid="uid://sy80u4qfxqax" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_15.png" id="56_4oa5x"]
+[ext_resource type="Texture2D" uid="uid://vud7218exjf7" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_16.png" id="57_h5enk"]
+[ext_resource type="Texture2D" uid="uid://yqted1s5xqpa" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_17.png" id="58_06jx0"]
+[ext_resource type="Texture2D" uid="uid://crwk8ias3uaxu" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_18.png" id="59_heeyj"]
+[ext_resource type="Texture2D" uid="uid://dcfkkpwgvg3gc" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl02 Shoot/Bomber Tower-Tower Bomb Lv02_Shoot_19.png" id="60_0newk"]
+[ext_resource type="Texture2D" uid="uid://c0vi110qkgf5u" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Idle/Bomber Tower-Tower Bomb Lv03_Idle_00.png" id="61_s0qf1"]
+[ext_resource type="Texture2D" uid="uid://cbe7oaktoyks" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Idle/Bomber Tower-Tower Bomb Lv03_Idle_01.png" id="62_jhxxh"]
+[ext_resource type="Texture2D" uid="uid://b22tjgtp4nml3" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Idle/Bomber Tower-Tower Bomb Lv03_Idle_02.png" id="63_5p2hw"]
+[ext_resource type="Texture2D" uid="uid://ewhsi3k8mxif" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Idle/Bomber Tower-Tower Bomb Lv03_Idle_03.png" id="64_8bjfp"]
+[ext_resource type="Texture2D" uid="uid://dtg6h65232fic" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Idle/Bomber Tower-Tower Bomb Lv03_Idle_04.png" id="65_kmotf"]
+[ext_resource type="Texture2D" uid="uid://bw3acpf3ignc2" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Idle/Bomber Tower-Tower Bomb Lv03_Idle_05.png" id="66_6h81p"]
+[ext_resource type="Texture2D" uid="uid://bwc0jl6vnu8ed" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Idle/Bomber Tower-Tower Bomb Lv03_Idle_06.png" id="67_mye3d"]
+[ext_resource type="Texture2D" uid="uid://c6et8gfo5syml" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Idle/Bomber Tower-Tower Bomb Lv03_Idle_07.png" id="68_7j4sp"]
+[ext_resource type="Texture2D" uid="uid://2sq1nt3sbt44" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Idle/Bomber Tower-Tower Bomb Lv03_Idle_08.png" id="69_1xb3y"]
+[ext_resource type="Texture2D" uid="uid://o3lw1j7hyxa8" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Idle/Bomber Tower-Tower Bomb Lv03_Idle_09.png" id="70_mdhs3"]
+[ext_resource type="Texture2D" uid="uid://f7gibwnfqs22" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_00.png" id="71_5255c"]
+[ext_resource type="Texture2D" uid="uid://dny5tl5opg8tc" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_01.png" id="72_qrj8x"]
+[ext_resource type="Texture2D" uid="uid://dvfn68yugcgvp" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_02.png" id="73_lv5mb"]
+[ext_resource type="Texture2D" uid="uid://b8mlt7f4by6ro" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_03.png" id="74_1irhh"]
+[ext_resource type="Texture2D" uid="uid://b04gl7btt1hed" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_04.png" id="75_6bdgo"]
+[ext_resource type="Texture2D" uid="uid://6s2e38k880wv" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_05.png" id="76_6rc2h"]
+[ext_resource type="Texture2D" uid="uid://ejsmjyljqtlx" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_06.png" id="77_qnxp0"]
+[ext_resource type="Texture2D" uid="uid://chb8m3rludmlh" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_07.png" id="78_6e1vd"]
+[ext_resource type="Texture2D" uid="uid://dtxxj51y88ick" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_08.png" id="79_o0tiw"]
+[ext_resource type="Texture2D" uid="uid://7kgchi8cjc81" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_09.png" id="80_bu3cd"]
+[ext_resource type="Texture2D" uid="uid://b1u0kd5a31u52" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_10.png" id="81_4135l"]
+[ext_resource type="Texture2D" uid="uid://6r0v3f5uuu66" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_11.png" id="82_city0"]
+[ext_resource type="Texture2D" uid="uid://cyohswmsuk8fm" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_12.png" id="83_gbxae"]
+[ext_resource type="Texture2D" uid="uid://dhyrlvdlgmfmm" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_13.png" id="84_rocl8"]
+[ext_resource type="Texture2D" uid="uid://cs4ifmwu27a5r" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_14.png" id="85_up0da"]
+[ext_resource type="Texture2D" uid="uid://c6vtbkmuok8bc" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_15.png" id="86_gn4ox"]
+[ext_resource type="Texture2D" uid="uid://ong4qyaq8qsi" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_16.png" id="87_ubosy"]
+[ext_resource type="Texture2D" uid="uid://dfc452pwy0v5q" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_17.png" id="88_mpkn7"]
+[ext_resource type="Texture2D" uid="uid://kfm4wkxrpkqq" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_18.png" id="89_evnof"]
+[ext_resource type="Texture2D" uid="uid://dj22pcupbo5vu" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl03 Shoot/Bomber Tower-Tower Bomb Lv03_Shoot_19.png" id="90_ax8ui"]
+[ext_resource type="Texture2D" uid="uid://266a7oewalko" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_00.png" id="91_4h6gp"]
+[ext_resource type="Texture2D" uid="uid://cjjaexlrj5bx6" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_01.png" id="92_4lme5"]
+[ext_resource type="Texture2D" uid="uid://db4gla2ivp2j6" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_02.png" id="93_2b0tl"]
+[ext_resource type="Texture2D" uid="uid://curu16me1km8p" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_03.png" id="94_3idqy"]
+[ext_resource type="Texture2D" uid="uid://dk18derla31vx" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_04.png" id="95_chwt0"]
+[ext_resource type="Texture2D" uid="uid://cx7qev0dsqg3m" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_05.png" id="96_p7a2d"]
+[ext_resource type="Texture2D" uid="uid://t7ohgfsxa7lr" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_06.png" id="97_vm2p2"]
+[ext_resource type="Texture2D" uid="uid://24ldwceqcg6p" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_07.png" id="98_f8vwa"]
+[ext_resource type="Texture2D" uid="uid://nsex8xdo2qwr" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_08.png" id="99_scff4"]
+[ext_resource type="Texture2D" uid="uid://cgrryn541q5l6" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Idle/Bomber Tower-Tower Bomb Lv04_Idle_09.png" id="100_3w8vr"]
+[ext_resource type="Texture2D" uid="uid://bofvdi1qpej5c" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_00.png" id="101_3dq78"]
+[ext_resource type="Texture2D" uid="uid://cd0kijyc2hpxs" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_01.png" id="102_kvoj8"]
+[ext_resource type="Texture2D" uid="uid://cx4jwkixuhqdk" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_02.png" id="103_rcr3l"]
+[ext_resource type="Texture2D" uid="uid://chycr66i148tv" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_03.png" id="104_sr7g8"]
+[ext_resource type="Texture2D" uid="uid://d4gwt1hsgeidq" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_04.png" id="105_12j8a"]
+[ext_resource type="Texture2D" uid="uid://dr6ohnewngtww" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_05.png" id="106_wijg6"]
+[ext_resource type="Texture2D" uid="uid://bqupwt45p2ub4" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_06.png" id="107_frkxt"]
+[ext_resource type="Texture2D" uid="uid://cdj4535j0vp2s" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_07.png" id="108_1qvs5"]
+[ext_resource type="Texture2D" uid="uid://jtusn4syofxf" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_08.png" id="109_6phqp"]
+[ext_resource type="Texture2D" uid="uid://b826m6cfvqhbh" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_09.png" id="110_t1t25"]
+[ext_resource type="Texture2D" uid="uid://df3ljvkvj5rmx" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_10.png" id="111_qhkyp"]
+[ext_resource type="Texture2D" uid="uid://brm22cnbsods8" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_11.png" id="112_npnju"]
+[ext_resource type="Texture2D" uid="uid://bm0qmirv25i8r" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_12.png" id="113_x1jo3"]
+[ext_resource type="Texture2D" uid="uid://djr3tvsgrd0n3" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_13.png" id="114_ipbc8"]
+[ext_resource type="Texture2D" uid="uid://bci2j2wrdga8i" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_14.png" id="115_epjcc"]
+[ext_resource type="Texture2D" uid="uid://b0lotirwahnxv" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_15.png" id="116_xnabp"]
+[ext_resource type="Texture2D" uid="uid://c4a05rdeua3vj" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_16.png" id="117_8waey"]
+[ext_resource type="Texture2D" uid="uid://d16gv480d1tjx" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_17.png" id="118_0yj54"]
+[ext_resource type="Texture2D" uid="uid://dhogag7j2sy2k" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_18.png" id="119_078lf"]
+[ext_resource type="Texture2D" uid="uid://c74fhuogprqvk" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl04 Shoot/Bomber Tower-Tower Bomb Lv04_Shoot_19.png" id="120_2rfel"]
+[ext_resource type="Texture2D" uid="uid://26ixjl5fulbx" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_00.png" id="121_u2hta"]
+[ext_resource type="Texture2D" uid="uid://dw3ngks6gfuox" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_01.png" id="122_35pdq"]
+[ext_resource type="Texture2D" uid="uid://c33jvqpgid8mx" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_02.png" id="123_l2sir"]
+[ext_resource type="Texture2D" uid="uid://cpjqns67ncya8" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_03.png" id="124_eilwj"]
+[ext_resource type="Texture2D" uid="uid://cxb0d1dxd15dy" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_04.png" id="125_dxkve"]
+[ext_resource type="Texture2D" uid="uid://cbelv8ev1cqlv" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_05.png" id="126_y6fyx"]
+[ext_resource type="Texture2D" uid="uid://c1y3opxq3q1d6" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_06.png" id="127_s0k5m"]
+[ext_resource type="Texture2D" uid="uid://ch46s0ok8hetf" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_07.png" id="128_y1yam"]
+[ext_resource type="Texture2D" uid="uid://b1j867c6beefw" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_08.png" id="129_q3bh7"]
+[ext_resource type="Texture2D" uid="uid://d3qd17udqrd55" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Idle/Bomber Tower-Tower Bomb Lv05_Idle_09.png" id="130_6c5r7"]
+[ext_resource type="Texture2D" uid="uid://cm10ei4au8dh8" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_00.png" id="131_uturu"]
+[ext_resource type="Texture2D" uid="uid://cwgpanpuyocgr" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_01.png" id="132_sna7v"]
+[ext_resource type="Texture2D" uid="uid://b1ufpr7j2weos" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_02.png" id="133_2tjoh"]
+[ext_resource type="Texture2D" uid="uid://b0grpj0kg3f31" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_03.png" id="134_nk715"]
+[ext_resource type="Texture2D" uid="uid://uchhollqqey6" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_04.png" id="135_f0l7a"]
+[ext_resource type="Texture2D" uid="uid://cp6hukyxk73rg" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_05.png" id="136_7pntu"]
+[ext_resource type="Texture2D" uid="uid://cjgs67wbpxovc" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_06.png" id="137_lwwa1"]
+[ext_resource type="Texture2D" uid="uid://dkta6rkdiyvbf" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_07.png" id="138_dqong"]
+[ext_resource type="Texture2D" uid="uid://rkod6oqvn63h" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_08.png" id="139_coedu"]
+[ext_resource type="Texture2D" uid="uid://8sbri8mn4yt0" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_09.png" id="140_gtm1x"]
+[ext_resource type="Texture2D" uid="uid://c6hk2xse4mvb3" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_10.png" id="141_uis1i"]
+[ext_resource type="Texture2D" uid="uid://dmgujji6372sp" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_11.png" id="142_hru6f"]
+[ext_resource type="Texture2D" uid="uid://rnk3eifyp4ar" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_12.png" id="143_jtk5w"]
+[ext_resource type="Texture2D" uid="uid://c5wou0jdey4mi" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_13.png" id="144_ieig6"]
+[ext_resource type="Texture2D" uid="uid://cnbwnfckv1qn4" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_14.png" id="145_044j8"]
+[ext_resource type="Texture2D" uid="uid://bd34vjj2dc2kc" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_15.png" id="146_c3naj"]
+[ext_resource type="Texture2D" uid="uid://bexm7dmpkehst" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_16.png" id="147_jckg6"]
+[ext_resource type="Texture2D" uid="uid://drx7bpak7wogx" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_17.png" id="148_xfirb"]
+[ext_resource type="Texture2D" uid="uid://oa8fc7b56gay" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_18.png" id="149_aa5c1"]
+[ext_resource type="Texture2D" uid="uid://botbmesjrh7dq" path="res://assets/Towers/Tower Bomber/Tower Bomber Lvl05 Shoot/Bomber Tower-Tower Bomb Lv05_Shoot_19.png" id="150_7l7k2"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_760nv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_8iq58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_5jtea")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_53hm3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_xdkbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_t3oeu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_n5ax4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_088og")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_dk5g6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_r0bra")
+}],
+"loop": true,
+"name": &"level_1_idle",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_5kccn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_70mao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_q00ms")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_r1g5d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_rtv4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_5dc4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_p12pq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_xffru")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_5gtjq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_527pr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_lj5cr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_volam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_k044a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_dbd6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_xpruw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_nns43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_dfxsp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_tttbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_56eaw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_60v8x")
+}],
+"loop": true,
+"name": &"level_1_shoot",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_u3fgq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_8ooya")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_o3llr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_n7g8g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_6ui4e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_cca4n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_gkmg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_dh0ni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_guun0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_b1u6b")
+}],
+"loop": true,
+"name": &"level_2_idle",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("41_g136s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_vr30m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_xrhtr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_oon55")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_o4xrm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_h5qko")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_7hxr0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_rn74v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_bb43w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_b6gsv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_23jr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_43eqv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_ukldg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_j5q8y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_aq2ft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_4oa5x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_h5enk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_06jx0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_heeyj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_0newk")
+}],
+"loop": true,
+"name": &"level_2_shoot",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("61_s0qf1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_jhxxh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_5p2hw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_8bjfp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_kmotf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_6h81p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_mye3d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_7j4sp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_1xb3y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_mdhs3")
+}],
+"loop": true,
+"name": &"level_3_idle",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("71_5255c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_qrj8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_lv5mb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_1irhh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_6bdgo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_6rc2h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_qnxp0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_6e1vd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_o0tiw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_bu3cd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_4135l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_city0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_gbxae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_rocl8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_up0da")
+}, {
+"duration": 1.0,
+"texture": ExtResource("86_gn4ox")
+}, {
+"duration": 1.0,
+"texture": ExtResource("87_ubosy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("88_mpkn7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("89_evnof")
+}, {
+"duration": 1.0,
+"texture": ExtResource("90_ax8ui")
+}],
+"loop": true,
+"name": &"level_3_shoot",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("91_4h6gp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("92_4lme5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("93_2b0tl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("94_3idqy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("95_chwt0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("96_p7a2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("97_vm2p2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("98_f8vwa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("99_scff4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("100_3w8vr")
+}],
+"loop": true,
+"name": &"level_4_idle",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("101_3dq78")
+}, {
+"duration": 1.0,
+"texture": ExtResource("102_kvoj8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("103_rcr3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("104_sr7g8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("105_12j8a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("106_wijg6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("107_frkxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("108_1qvs5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("109_6phqp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("110_t1t25")
+}, {
+"duration": 1.0,
+"texture": ExtResource("111_qhkyp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("112_npnju")
+}, {
+"duration": 1.0,
+"texture": ExtResource("113_x1jo3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("114_ipbc8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("115_epjcc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("116_xnabp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("117_8waey")
+}, {
+"duration": 1.0,
+"texture": ExtResource("118_0yj54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("119_078lf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("120_2rfel")
+}],
+"loop": true,
+"name": &"level_4_shoot",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("121_u2hta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("122_35pdq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("123_l2sir")
+}, {
+"duration": 1.0,
+"texture": ExtResource("124_eilwj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("125_dxkve")
+}, {
+"duration": 1.0,
+"texture": ExtResource("126_y6fyx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("127_s0k5m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("128_y1yam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("129_q3bh7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("130_6c5r7")
+}],
+"loop": true,
+"name": &"level_5_idle",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("131_uturu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("132_sna7v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("133_2tjoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("134_nk715")
+}, {
+"duration": 1.0,
+"texture": ExtResource("135_f0l7a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("136_7pntu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("137_lwwa1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("138_dqong")
+}, {
+"duration": 1.0,
+"texture": ExtResource("139_coedu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("140_gtm1x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("141_uis1i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("142_hru6f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("143_jtk5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("144_ieig6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("145_044j8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("146_c3naj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("147_jckg6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("148_xfirb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("149_aa5c1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("150_7l7k2")
+}],
+"loop": true,
+"name": &"level_5_shoot",
+"speed": 20.0
+}]

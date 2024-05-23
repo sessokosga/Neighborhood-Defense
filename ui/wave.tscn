@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkeewxot1q2dp"]
+
+[ext_resource type="Script" path="res://ui/wave.gd" id="1_hxpa2"]
+[ext_resource type="Texture2D" uid="uid://bdx3c2gliwdbm" path="res://assets/Gameplay Hud/Wave Bar.png" id="1_myv84"]
+[ext_resource type="Texture2D" uid="uid://b6gfoq25817od" path="res://assets/Gameplay Hud/Wave Icon.png" id="2_krmtt"]
+
+[node name="Wave" type="Control"]
+custom_minimum_size = Vector2(228, 59)
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_hxpa2")
+
+[node name="Back" type="TextureRect" parent="."]
+auto_translate_mode = 1
+layout_mode = 0
+offset_right = 228.0
+offset_bottom = 59.0
+texture = ExtResource("1_myv84")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Icon" type="TextureRect" parent="HBoxContainer"]
+layout_mode = 2
+texture = ExtResource("2_krmtt")
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"WaveLabel"
+text = "wave 1 / 15"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true

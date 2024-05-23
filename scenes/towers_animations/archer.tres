@@ -1,0 +1,375 @@
+[gd_resource type="SpriteFrames" load_steps=86 format=3 uid="uid://dtgbon3o7702t"]
+
+[ext_resource type="Texture2D" uid="uid://smjeejcbmxug" path="res://assets/Towers/Tower Archer/Idle/Archer-Idle_00.png" id="1_xor0u"]
+[ext_resource type="Texture2D" uid="uid://b8ndyrp2huw5w" path="res://assets/Towers/Tower Archer/Idle/Archer-Idle_01.png" id="2_dehgg"]
+[ext_resource type="Texture2D" uid="uid://b4du2oa71n3gi" path="res://assets/Towers/Tower Archer/Idle/Archer-Idle_02.png" id="3_0f1kb"]
+[ext_resource type="Texture2D" uid="uid://c85wdue4dffbi" path="res://assets/Towers/Tower Archer/Idle/Archer-Idle_03.png" id="4_ij5k6"]
+[ext_resource type="Texture2D" uid="uid://clcpak53sidav" path="res://assets/Towers/Tower Archer/Idle/Archer-Idle_04.png" id="5_b3861"]
+[ext_resource type="Texture2D" uid="uid://bj6dr0a2cperx" path="res://assets/Towers/Tower Archer/Idle/Archer-Idle_05.png" id="6_qvt45"]
+[ext_resource type="Texture2D" uid="uid://b1ntstfhyj3ub" path="res://assets/Towers/Tower Archer/Idle/Archer-Idle_06.png" id="7_cf4a2"]
+[ext_resource type="Texture2D" uid="uid://b0mmgp3o6nslm" path="res://assets/Towers/Tower Archer/Idle/Archer-Idle_07.png" id="8_ipxuu"]
+[ext_resource type="Texture2D" uid="uid://b8wn3pcdyd20n" path="res://assets/Towers/Tower Archer/Idle/Archer-Idle_08.png" id="9_qkywt"]
+[ext_resource type="Texture2D" uid="uid://bwqqbp1xowm0o" path="res://assets/Towers/Tower Archer/Idle/Archer-Idle_09.png" id="10_3kwbt"]
+[ext_resource type="Texture2D" uid="uid://bc8s3l2wuodmd" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_00.png" id="11_80gmp"]
+[ext_resource type="Texture2D" uid="uid://xv7trumvrmi1" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_01.png" id="12_trwg4"]
+[ext_resource type="Texture2D" uid="uid://bj0b4te2iwtpg" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_02.png" id="13_64xkh"]
+[ext_resource type="Texture2D" uid="uid://6ebphk1gplin" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_03.png" id="14_qggce"]
+[ext_resource type="Texture2D" uid="uid://bcph7oqvt1b2s" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_04.png" id="15_rxio3"]
+[ext_resource type="Texture2D" uid="uid://d3xkld61qjckc" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_05.png" id="16_gas5f"]
+[ext_resource type="Texture2D" uid="uid://rwfes4kq6oqp" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_06.png" id="17_h1wl1"]
+[ext_resource type="Texture2D" uid="uid://t27akhmagjj5" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_07.png" id="18_mpnf7"]
+[ext_resource type="Texture2D" uid="uid://cka75ppp7aenr" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_08.png" id="19_qi3bv"]
+[ext_resource type="Texture2D" uid="uid://cyfvjgoi78mco" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_09.png" id="20_th2cu"]
+[ext_resource type="Texture2D" uid="uid://sx1i4bepidn" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_10.png" id="21_1g3jw"]
+[ext_resource type="Texture2D" uid="uid://bysnkp4djdyn3" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_11.png" id="22_olwsx"]
+[ext_resource type="Texture2D" uid="uid://cgvuw64nmexmy" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_12.png" id="23_xh31c"]
+[ext_resource type="Texture2D" uid="uid://bxl847w0ukwc5" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_13.png" id="24_16vvx"]
+[ext_resource type="Texture2D" uid="uid://do8ixv7xkam35" path="res://assets/Towers/Tower Archer/ShootBot01/Archer-Shoot Bot01_14.png" id="25_eq4ju"]
+[ext_resource type="Texture2D" uid="uid://b884nuyxcxbxg" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_00.png" id="26_23jdr"]
+[ext_resource type="Texture2D" uid="uid://oxqowuay67xm" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_01.png" id="27_bxyy7"]
+[ext_resource type="Texture2D" uid="uid://dul7patudl2f2" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_02.png" id="28_ihktn"]
+[ext_resource type="Texture2D" uid="uid://boba1sywmlo1o" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_03.png" id="29_uvwo6"]
+[ext_resource type="Texture2D" uid="uid://b8h2p2yrqq4x" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_04.png" id="30_mvyss"]
+[ext_resource type="Texture2D" uid="uid://btdx0agdjnt0j" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_05.png" id="31_kqqp4"]
+[ext_resource type="Texture2D" uid="uid://dnsql7i8apclj" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_06.png" id="32_08vo3"]
+[ext_resource type="Texture2D" uid="uid://vnlc3fdaoyxv" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_07.png" id="33_blrv4"]
+[ext_resource type="Texture2D" uid="uid://bcv1k1yvnv1qp" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_08.png" id="34_jr764"]
+[ext_resource type="Texture2D" uid="uid://c6fllkqhpgiv7" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_09.png" id="35_k6nal"]
+[ext_resource type="Texture2D" uid="uid://ris4scrts0pe" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_10.png" id="36_0tb70"]
+[ext_resource type="Texture2D" uid="uid://b8j7n4iaar1je" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_11.png" id="37_8j8f5"]
+[ext_resource type="Texture2D" uid="uid://dav073svnmr3k" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_12.png" id="38_73pjx"]
+[ext_resource type="Texture2D" uid="uid://c2fhotd5y5h6t" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_13.png" id="39_gagmy"]
+[ext_resource type="Texture2D" uid="uid://htbb4eq13ixm" path="res://assets/Towers/Tower Archer/ShootBot02/Archer-Shoot Bot02_14.png" id="40_hg2wd"]
+[ext_resource type="Texture2D" uid="uid://lasmpy2odsgi" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_00.png" id="41_y2uce"]
+[ext_resource type="Texture2D" uid="uid://cdiaanosryj5a" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_01.png" id="42_b7c6a"]
+[ext_resource type="Texture2D" uid="uid://c04t34bqiu1n0" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_02.png" id="43_2cmdd"]
+[ext_resource type="Texture2D" uid="uid://bgf2wtbhe7045" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_03.png" id="44_fyxpt"]
+[ext_resource type="Texture2D" uid="uid://bunrjc05g1oop" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_04.png" id="45_1d3ec"]
+[ext_resource type="Texture2D" uid="uid://dheb0rjxoo5ys" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_05.png" id="46_qwad3"]
+[ext_resource type="Texture2D" uid="uid://bscsgid22ofmh" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_06.png" id="47_uvygk"]
+[ext_resource type="Texture2D" uid="uid://bsxjdnhistv7h" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_07.png" id="48_thpvj"]
+[ext_resource type="Texture2D" uid="uid://b4jf4fh1g3v88" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_08.png" id="49_hmcfo"]
+[ext_resource type="Texture2D" uid="uid://cjdfynblg6hnn" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_09.png" id="50_052vt"]
+[ext_resource type="Texture2D" uid="uid://deb5o18iqph0n" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_10.png" id="51_wwd0v"]
+[ext_resource type="Texture2D" uid="uid://bsdgfn46cimxp" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_11.png" id="52_ff0b1"]
+[ext_resource type="Texture2D" uid="uid://dqnxdyx7d80yd" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_12.png" id="53_dn05v"]
+[ext_resource type="Texture2D" uid="uid://dq5neg08dtbs4" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_13.png" id="54_ooijj"]
+[ext_resource type="Texture2D" uid="uid://3k0kwvofbkjr" path="res://assets/Towers/Tower Archer/ShootSide/Archer-Shoot Side_14.png" id="55_c8615"]
+[ext_resource type="Texture2D" uid="uid://b5mumvvy50l25" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_00.png" id="56_vkl4g"]
+[ext_resource type="Texture2D" uid="uid://chr2aeswt0unh" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_01.png" id="57_03472"]
+[ext_resource type="Texture2D" uid="uid://kgcbuchv83np" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_02.png" id="58_m8ng8"]
+[ext_resource type="Texture2D" uid="uid://b86aeh2v2gpqf" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_03.png" id="59_kak75"]
+[ext_resource type="Texture2D" uid="uid://bw5bihnp2k8ml" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_04.png" id="60_mywnl"]
+[ext_resource type="Texture2D" uid="uid://j8nyskletwbq" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_05.png" id="61_3sbfg"]
+[ext_resource type="Texture2D" uid="uid://3eed0iv3h11i" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_06.png" id="62_epedx"]
+[ext_resource type="Texture2D" uid="uid://d0ae3bpgd3wd1" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_07.png" id="63_fsn4i"]
+[ext_resource type="Texture2D" uid="uid://djeft384mlu5s" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_08.png" id="64_ct623"]
+[ext_resource type="Texture2D" uid="uid://kcnqjv2sxoh7" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_09.png" id="65_xbgfo"]
+[ext_resource type="Texture2D" uid="uid://cqt57beigf4nq" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_10.png" id="66_ii3hq"]
+[ext_resource type="Texture2D" uid="uid://djo3x5g7n6ul3" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_11.png" id="67_reaav"]
+[ext_resource type="Texture2D" uid="uid://bo0scnp60gkpi" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_12.png" id="68_lar1o"]
+[ext_resource type="Texture2D" uid="uid://2hb1a0f2oj2" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_13.png" id="69_4ox75"]
+[ext_resource type="Texture2D" uid="uid://dphapy67780kl" path="res://assets/Towers/Tower Archer/ShootTop01/Archer-Shoot Top01_14.png" id="70_m4t2d"]
+[ext_resource type="Texture2D" uid="uid://n6kelfet1eav" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_00.png" id="71_yfygj"]
+[ext_resource type="Texture2D" uid="uid://bu7y700njvgj3" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_01.png" id="72_bu2tp"]
+[ext_resource type="Texture2D" uid="uid://bynekqb2wg0xu" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_02.png" id="73_r2255"]
+[ext_resource type="Texture2D" uid="uid://cdpw8tl77sewt" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_03.png" id="74_la1kx"]
+[ext_resource type="Texture2D" uid="uid://cryiv4cepqru1" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_04.png" id="75_g8f0o"]
+[ext_resource type="Texture2D" uid="uid://clysfavnw4kof" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_05.png" id="76_s3qpm"]
+[ext_resource type="Texture2D" uid="uid://bqjoprdl5u688" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_06.png" id="77_vfegp"]
+[ext_resource type="Texture2D" uid="uid://cxbuvxgjyyw8y" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_07.png" id="78_4dvxx"]
+[ext_resource type="Texture2D" uid="uid://cnn72yngadu6p" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_08.png" id="79_mgy1s"]
+[ext_resource type="Texture2D" uid="uid://xnm4d75ka3" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_09.png" id="80_bw7mv"]
+[ext_resource type="Texture2D" uid="uid://begoxc8uocksb" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_10.png" id="81_2i3vd"]
+[ext_resource type="Texture2D" uid="uid://hga0k5o5xpy5" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_11.png" id="82_ka8n0"]
+[ext_resource type="Texture2D" uid="uid://ucpld6a4wy1b" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_12.png" id="83_nocny"]
+[ext_resource type="Texture2D" uid="uid://cmhanovmuib1b" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_13.png" id="84_dslkb"]
+[ext_resource type="Texture2D" uid="uid://jdhmr4kimxhi" path="res://assets/Towers/Tower Archer/ShootTop02/Archer-Shoot Top02_14.png" id="85_v8wpf"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xor0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dehgg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_0f1kb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_ij5k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_b3861")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qvt45")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_cf4a2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_ipxuu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_qkywt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_3kwbt")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_80gmp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_trwg4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_64xkh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_qggce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_rxio3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_gas5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_h1wl1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_mpnf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_qi3bv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_th2cu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_1g3jw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_olwsx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_xh31c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_16vvx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_eq4ju")
+}],
+"loop": true,
+"name": &"shoot_bot_1",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_23jdr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_bxyy7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ihktn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_uvwo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_mvyss")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_kqqp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_08vo3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_blrv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_jr764")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_k6nal")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_0tb70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_8j8f5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_73pjx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_gagmy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_hg2wd")
+}],
+"loop": true,
+"name": &"shoot_bot_2",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("41_y2uce")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_b7c6a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_2cmdd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_fyxpt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_1d3ec")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_qwad3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_uvygk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_thpvj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_hmcfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_052vt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_wwd0v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_ff0b1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_dn05v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_ooijj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_c8615")
+}],
+"loop": true,
+"name": &"shoot_side",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("56_vkl4g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_03472")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_m8ng8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_kak75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_mywnl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_3sbfg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_epedx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_fsn4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_ct623")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_xbgfo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("66_ii3hq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("67_reaav")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_lar1o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_4ox75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_m4t2d")
+}],
+"loop": true,
+"name": &"shoot_top_1",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("71_yfygj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("72_bu2tp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_r2255")
+}, {
+"duration": 1.0,
+"texture": ExtResource("74_la1kx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("75_g8f0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("76_s3qpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("77_vfegp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("78_4dvxx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("79_mgy1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("80_bw7mv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("81_2i3vd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("82_ka8n0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("83_nocny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("84_dslkb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("85_v8wpf")
+}],
+"loop": true,
+"name": &"shoot_top_2",
+"speed": 20.0
+}]

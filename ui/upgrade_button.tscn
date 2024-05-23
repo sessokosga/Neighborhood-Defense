@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://bjf0w7blebhyv"]
+
+[ext_resource type="Texture2D" uid="uid://deqlbsyuncgfy" path="res://assets/Level Select/Artboard 3 copy 6.png" id="1_4cowa"]
+[ext_resource type="Texture2D" uid="uid://cnnjw8dd4j88k" path="res://assets/Level Select/Artboard 3 copy 8.png" id="2_wrp5x"]
+
+[node name="Upgrade" type="TextureButton"]
+custom_minimum_size = Vector2(188, 182)
+offset_right = 188.0
+offset_bottom = 182.0
+texture_normal = ExtResource("1_4cowa")
+texture_pressed = ExtResource("2_wrp5x")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Label" type="Label" parent="."]
+auto_translate_mode = 1
+layout_mode = 0
+offset_left = 19.0
+offset_top = 93.0
+offset_right = 173.0
+offset_bottom = 138.0
+theme_type_variation = &"TextButtonLabel"
+text = "Upgrade"
+horizontal_alignment = 1
+vertical_alignment = 1
+uppercase = true

@@ -1,0 +1,52 @@
+[gd_scene load_steps=7 format=3 uid="uid://7hsk6lhj4qjp"]
+
+[ext_resource type="Texture2D" uid="uid://djr8stsmvcup8" path="res://assets/Gameplay Hud/Artboard 18 copy 2.png" id="1_pdt6r"]
+[ext_resource type="Texture2D" uid="uid://243jp01ujvs" path="res://assets/Gameplay Hud/Artboard 18 copy 6.png" id="2_3k2wx"]
+[ext_resource type="Script" path="res://ui/tower_button.gd" id="3_7t7xr"]
+[ext_resource type="Texture2D" uid="uid://so6bwumqca1q" path="res://assets/Gameplay Hud/Artboard 18 copy 2 disabled.png" id="3_l8j8c"]
+[ext_resource type="Texture2D" uid="uid://dsv37ojxfokuj" path="res://assets/Gameplay Hud/Money_Icon.png" id="4_iyux1"]
+[ext_resource type="Texture2D" uid="uid://c515rew2aijfy" path="res://assets/Buildings and Object/Artboard 10.png" id="5_m0jew"]
+
+[node name="Sniper" type="TextureButton"]
+custom_minimum_size = Vector2(103, 110)
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("1_pdt6r")
+texture_pressed = ExtResource("2_3k2wx")
+texture_disabled = ExtResource("3_l8j8c")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("3_7t7xr")
+type = 3
+cost = 120
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 59.0
+offset_right = 83.0
+offset_bottom = 94.0
+theme_type_variation = &"MoneyLabel"
+text = "120"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Space" type="TextureRect" parent="."]
+auto_translate_mode = 1
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("5_m0jew")
+
+[node name="MoneyIcon" type="TextureRect" parent="."]
+auto_translate_mode = 1
+custom_minimum_size = Vector2(32, 30)
+layout_mode = 0
+offset_left = 14.0
+offset_top = 62.0
+offset_right = 46.0
+offset_bottom = 92.0
+texture = ExtResource("4_iyux1")
+expand_mode = 1
+stretch_mode = 5

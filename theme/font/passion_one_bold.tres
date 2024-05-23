@@ -1,0 +1,7 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://bbeu1kvkiptuw"]
+
+[ext_resource type="FontFile" uid="uid://cjmay5ka56a17" path="res://assets/fonts/Passion_One/PassionOne-Bold.ttf" id="1_yk7f6"]
+
+[resource]
+base_font = ExtResource("1_yk7f6")
+spacing_glyph = 1

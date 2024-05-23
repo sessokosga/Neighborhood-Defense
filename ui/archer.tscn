@@ -1,0 +1,50 @@
+[gd_scene load_steps=7 format=3 uid="uid://ckjaqf85ej2iw"]
+
+[ext_resource type="Texture2D" uid="uid://b36h47em4dfl3" path="res://assets/Gameplay Hud/Artboard 18.png" id="1_6p1v6"]
+[ext_resource type="Texture2D" uid="uid://brwa7mb7tdx3a" path="res://assets/Gameplay Hud/Artboard 18 copy 4.png" id="2_db7gk"]
+[ext_resource type="Texture2D" uid="uid://hcsww6kp52r8" path="res://assets/Gameplay Hud/Artboard 18 disabled.png" id="3_8wh0j"]
+[ext_resource type="Texture2D" uid="uid://dsv37ojxfokuj" path="res://assets/Gameplay Hud/Money_Icon.png" id="3_nyvhc"]
+[ext_resource type="Script" path="res://ui/tower_button.gd" id="3_uei3v"]
+[ext_resource type="Texture2D" uid="uid://c515rew2aijfy" path="res://assets/Buildings and Object/Artboard 10.png" id="5_pjfgb"]
+
+[node name="Archer" type="TextureButton"]
+custom_minimum_size = Vector2(103, 110)
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("1_6p1v6")
+texture_pressed = ExtResource("2_db7gk")
+texture_disabled = ExtResource("3_8wh0j")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("3_uei3v")
+cost = 100
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 59.0
+offset_right = 83.0
+offset_bottom = 94.0
+theme_type_variation = &"MoneyLabel"
+text = "100"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Space" type="TextureRect" parent="."]
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("5_pjfgb")
+
+[node name="MoneyIcon" type="TextureRect" parent="."]
+auto_translate_mode = 1
+custom_minimum_size = Vector2(32, 30)
+layout_mode = 0
+offset_left = 14.0
+offset_top = 62.0
+offset_right = 46.0
+offset_bottom = 92.0
+texture = ExtResource("3_nyvhc")
+expand_mode = 1
+stretch_mode = 5

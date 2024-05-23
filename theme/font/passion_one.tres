@@ -1,0 +1,8 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://d1aex3j32x3a7"]
+
+[ext_resource type="FontFile" uid="uid://bs2yewfcpat1h" path="res://assets/fonts/Passion_One/PassionOne-Regular.ttf" id="1_vk5nh"]
+
+[resource]
+base_font = ExtResource("1_vk5nh")
+spacing_glyph = 1
+spacing_space = 1
