@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://chaa2x0ynqiqh"
+path="res://.godot/imported/Zombie Groan Pitched Down (6).wav-6fff3182818cdf351cc22d04ca7572d5.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/zombies/voice/Zombie Groan Pitched Down (6).wav"
+dest_files=["res://.godot/imported/Zombie Groan Pitched Down (6).wav-6fff3182818cdf351cc22d04ca7572d5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

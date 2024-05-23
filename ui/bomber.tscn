@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=3 uid="uid://c45rvsdq7avie"]
+
+[ext_resource type="Texture2D" uid="uid://bjkkvcxw1k26p" path="res://assets/Gameplay Hud/Artboard 18 copy.png" id="1_el4i6"]
+[ext_resource type="Texture2D" uid="uid://cv2sfksyxy4gd" path="res://assets/Gameplay Hud/Artboard 18 copy 5.png" id="2_yleun"]
+[ext_resource type="Texture2D" uid="uid://cy86incbxac6m" path="res://assets/Gameplay Hud/Artboard 18 copy disabled.png" id="3_5rrhl"]
+[ext_resource type="Script" path="res://ui/tower_button.gd" id="3_mka25"]
+[ext_resource type="Texture2D" uid="uid://dsv37ojxfokuj" path="res://assets/Gameplay Hud/Money_Icon.png" id="4_slulj"]
+[ext_resource type="Texture2D" uid="uid://c515rew2aijfy" path="res://assets/Buildings and Object/Artboard 10.png" id="5_0hsre"]
+
+[node name="Bomber" type="TextureButton"]
+custom_minimum_size = Vector2(103, 110)
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = ExtResource("1_el4i6")
+texture_pressed = ExtResource("2_yleun")
+texture_disabled = ExtResource("3_5rrhl")
+ignore_texture_size = true
+stretch_mode = 5
+script = ExtResource("3_mka25")
+type = 1
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 43.0
+offset_top = 59.0
+offset_right = 83.0
+offset_bottom = 94.0
+theme_type_variation = &"MoneyLabel"
+text = "200"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Space" type="TextureRect" parent="."]
+auto_translate_mode = 1
+visible = false
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("5_0hsre")
+
+[node name="MoneyIcon" type="TextureRect" parent="."]
+auto_translate_mode = 1
+custom_minimum_size = Vector2(32, 30)
+layout_mode = 0
+offset_left = 14.0
+offset_top = 62.0
+offset_right = 46.0
+offset_bottom = 92.0
+texture = ExtResource("4_slulj")
+expand_mode = 1
+stretch_mode = 5

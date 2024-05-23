@@ -1,0 +1,100 @@
+[gd_scene load_steps=9 format=3 uid="uid://bay33pq0w2wka"]
+
+[ext_resource type="Texture2D" uid="uid://brq2gbsg35o4p" path="res://assets/Level Select/Artboard 3.png" id="1_6ybki"]
+[ext_resource type="Texture2D" uid="uid://bjksjhee12fk0" path="res://assets/Level Select/Artboard 3 copy.png" id="2_jycai"]
+[ext_resource type="Texture2D" uid="uid://pbdqvy4lm8r1" path="res://assets/Level Select/Artboard 3 copy 3.png" id="2_tdxni"]
+[ext_resource type="Texture2D" uid="uid://cmiqbi2frsif" path="res://assets/Level Select/Artboard 11 copy 3.png" id="3_ktxkf"]
+[ext_resource type="Script" path="res://scripts/level_item.gd" id="4_uvrpf"]
+[ext_resource type="Texture2D" uid="uid://b75k8uiiashdr" path="res://assets/Level Select/Artboard 11 copy 2.png" id="4_x8ywt"]
+[ext_resource type="Texture2D" uid="uid://baklyigxcp5dl" path="res://assets/Level Select/Artboard 11 copy.png" id="5_bmnkt"]
+[ext_resource type="Texture2D" uid="uid://12rggqya31u7" path="res://assets/Level Select/Artboard 11.png" id="6_lvqj4"]
+
+[node name="LevelItem" type="TextureButton"]
+custom_minimum_size = Vector2(145, 145)
+offset_left = 1.0
+offset_right = 151.0
+offset_bottom = 150.0
+disabled = true
+toggle_mode = true
+texture_normal = ExtResource("1_6ybki")
+texture_pressed = ExtResource("2_tdxni")
+texture_disabled = ExtResource("2_jycai")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("4_uvrpf")
+
+[node name="Level" type="Label" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -10.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"LevelLabel"
+text = "1"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Starts" type="Control" parent="."]
+visible = false
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="None" type="TextureRect" parent="Starts"]
+layout_mode = 0
+offset_left = 18.0
+offset_top = -47.0
+offset_right = 133.0
+offset_bottom = 37.0
+texture = ExtResource("3_ktxkf")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="One" type="TextureRect" parent="Starts"]
+auto_translate_mode = 1
+visible = false
+layout_mode = 0
+offset_left = 8.0
+offset_top = -47.0
+offset_right = 123.0
+offset_bottom = 37.0
+texture = ExtResource("4_x8ywt")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Two" type="TextureRect" parent="Starts"]
+auto_translate_mode = 1
+visible = false
+layout_mode = 0
+offset_left = 8.0
+offset_top = -47.0
+offset_right = 123.0
+offset_bottom = 37.0
+texture = ExtResource("5_bmnkt")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Three" type="TextureRect" parent="Starts"]
+auto_translate_mode = 1
+visible = false
+layout_mode = 0
+offset_left = 8.0
+offset_top = -47.0
+offset_right = 123.0
+offset_bottom = 37.0
+texture = ExtResource("6_lvqj4")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+expand_mode = 1
+stretch_mode = 5
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

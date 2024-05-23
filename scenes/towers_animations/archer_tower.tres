@@ -1,0 +1,50 @@
+[gd_resource type="SpriteFrames" load_steps=6 format=3 uid="uid://wxh4oidf6ds0"]
+
+[ext_resource type="Texture2D" uid="uid://4trp665qwbc3" path="res://assets/Towers/Tower Archer/TowerArcher_Lv01.png" id="1_bfsb0"]
+[ext_resource type="Texture2D" uid="uid://cuspv30hcfvml" path="res://assets/Towers/Tower Archer/TowerArcher_Lv02.png" id="2_g5r1c"]
+[ext_resource type="Texture2D" uid="uid://cbo4mxvdmc8qc" path="res://assets/Towers/Tower Archer/TowerArcher_Lv03.png" id="3_t0780"]
+[ext_resource type="Texture2D" uid="uid://ba20353stpxs6" path="res://assets/Towers/Tower Archer/TowerArcher_Lv04.png" id="4_1onvc"]
+[ext_resource type="Texture2D" uid="uid://buonpbshfov3v" path="res://assets/Towers/Tower Archer/TowerArcher_Lv05.png" id="5_h313m"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_bfsb0")
+}],
+"loop": true,
+"name": &"level_1",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_g5r1c")
+}],
+"loop": true,
+"name": &"level_2",
+"speed": 1.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_t0780")
+}],
+"loop": true,
+"name": &"level_3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_1onvc")
+}],
+"loop": true,
+"name": &"level_4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_h313m")
+}],
+"loop": true,
+"name": &"level_5",
+"speed": 5.0
+}]

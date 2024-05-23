@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bljelcppom2kl"
+path="res://.godot/imported/GORE - WEAP - Shovel_Whoosh_Impact_Gore_1.wav-2777d57a6c938c8da202f3d6bed7530a.sample"
+
+[deps]
+
+source_file="res://assets/audio/sfx/zombies/explosion/GORE - WEAP - Shovel_Whoosh_Impact_Gore_1.wav"
+dest_files=["res://.godot/imported/GORE - WEAP - Shovel_Whoosh_Impact_Gore_1.wav-2777d57a6c938c8da202f3d6bed7530a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

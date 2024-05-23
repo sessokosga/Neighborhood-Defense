@@ -1,0 +1,30 @@
+[gd_scene load_steps=6 format=3 uid="uid://04c4bk0kv2du"]
+
+[ext_resource type="Script" path="res://scripts/zombie.gd" id="1_kmr6l"]
+[ext_resource type="Shape2D" uid="uid://c8dtu5d4v0d41" path="res://scenes/zombies_collision_shape/zombie_1.tres" id="2_ktidd"]
+[ext_resource type="SpriteFrames" uid="uid://dnsr1y4dd3qk5" path="res://scenes/zombies_animations/zombie_10.tres" id="2_ojioe"]
+[ext_resource type="Texture2D" uid="uid://rrhbv712t6vs" path="res://assets/enemy HP bar/background-bar.png" id="4_j1bg3"]
+[ext_resource type="Texture2D" uid="uid://bngbq0fjsv70p" path="res://assets/enemy HP bar/foreground-bar.png" id="5_d5kve"]
+
+[node name="Zombie" type="CharacterBody2D"]
+collision_mask = 0
+script = ExtResource("1_kmr6l")
+
+[node name="Animation" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("2_ojioe")
+animation = &"front"
+autoplay = "back"
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(2, -9)
+shape = ExtResource("2_ktidd")
+
+[node name="HealthBar" type="TextureProgressBar" parent="."]
+offset_left = -28.0
+offset_top = -55.0
+offset_right = 28.0
+offset_bottom = -33.0
+value = 100.0
+texture_under = ExtResource("4_j1bg3")
+texture_progress = ExtResource("5_d5kve")
+texture_progress_offset = Vector2(1, 2)

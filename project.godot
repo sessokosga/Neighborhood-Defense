@@ -1,0 +1,37 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Neighborhood Defense"
+run/main_scene="res://scenes/level_select.tscn"
+config/features=PackedStringArray("4.3", "Forward Plus")
+config/icon="res://icon.svg"
+
+[autoload]
+
+AudioPlayer="*res://autoloads/audio_player.tscn"
+InputScheme="*res://autoloads/input_scheme.gd"
+PlayerData="*res://autoloads/player_data.gd"
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/mode=3
+window/stretch/mode="canvas_items"
+
+[gui]
+
+theme/custom="res://theme/default.tres"
+
+[rendering]
+
+textures/vram_compression/import_etc2_astc=true

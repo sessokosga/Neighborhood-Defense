@@ -1,0 +1,270 @@
+[gd_resource type="SpriteFrames" load_steps=61 format=3 uid="uid://dsi00khnkk7km"]
+
+[ext_resource type="Texture2D" uid="uid://cbx6tv4ul8sfk" path="res://assets/Towers/Tower Electric/Tower Electric Lv01/Electric Tower-Tower Electric Lv01_00.png" id="1_h7snv"]
+[ext_resource type="Texture2D" uid="uid://d0vokpwmwgs5d" path="res://assets/Towers/Tower Electric/Tower Electric Lv01/Electric Tower-Tower Electric Lv01_01.png" id="2_2jdby"]
+[ext_resource type="Texture2D" uid="uid://bsnxygxn76sf5" path="res://assets/Towers/Tower Electric/Tower Electric Lv01/Electric Tower-Tower Electric Lv01_02.png" id="3_t2m0j"]
+[ext_resource type="Texture2D" uid="uid://bxsg252omikd0" path="res://assets/Towers/Tower Electric/Tower Electric Lv01/Electric Tower-Tower Electric Lv01_03.png" id="4_vylg7"]
+[ext_resource type="Texture2D" uid="uid://dk12ss0xswcp" path="res://assets/Towers/Tower Electric/Tower Electric Lv01/Electric Tower-Tower Electric Lv01_04.png" id="5_3h0jy"]
+[ext_resource type="Texture2D" uid="uid://bt37i17cg50dx" path="res://assets/Towers/Tower Electric/Tower Electric Lv01/Electric Tower-Tower Electric Lv01_05.png" id="6_yo7sh"]
+[ext_resource type="Texture2D" uid="uid://c1ebtefayxpyu" path="res://assets/Towers/Tower Electric/Tower Electric Lv01/Electric Tower-Tower Electric Lv01_06.png" id="7_okx36"]
+[ext_resource type="Texture2D" uid="uid://bg7hjkc8dc401" path="res://assets/Towers/Tower Electric/Tower Electric Lv01/Electric Tower-Tower Electric Lv01_07.png" id="8_43yiq"]
+[ext_resource type="Texture2D" uid="uid://bjbtv6sm74hu" path="res://assets/Towers/Tower Electric/Tower Electric Lv01/Electric Tower-Tower Electric Lv01_08.png" id="9_3arcv"]
+[ext_resource type="Texture2D" uid="uid://bv58rkdioadju" path="res://assets/Towers/Tower Electric/Tower Electric Lv01/Electric Tower-Tower Electric Lv01_09.png" id="10_yhhqa"]
+[ext_resource type="Texture2D" uid="uid://bx6who4q3lvg1" path="res://assets/Towers/Tower Electric/Tower Electric Lv02/Electric Tower-Tower Electric Lv02_00.png" id="11_ftr50"]
+[ext_resource type="Texture2D" uid="uid://c7i4w6qm0euvg" path="res://assets/Towers/Tower Electric/Tower Electric Lv02/Electric Tower-Tower Electric Lv02_01.png" id="12_3aren"]
+[ext_resource type="Texture2D" uid="uid://bg2w7wync0qi1" path="res://assets/Towers/Tower Electric/Tower Electric Lv02/Electric Tower-Tower Electric Lv02_02.png" id="13_1l60r"]
+[ext_resource type="Texture2D" uid="uid://ddgqroftx4p3b" path="res://assets/Towers/Tower Electric/Tower Electric Lv02/Electric Tower-Tower Electric Lv02_03.png" id="14_t3yay"]
+[ext_resource type="Texture2D" uid="uid://di0hi1otj2e1l" path="res://assets/Towers/Tower Electric/Tower Electric Lv02/Electric Tower-Tower Electric Lv02_04.png" id="15_sw2gd"]
+[ext_resource type="Texture2D" uid="uid://cgd4l07yaqcmj" path="res://assets/Towers/Tower Electric/Tower Electric Lv02/Electric Tower-Tower Electric Lv02_05.png" id="16_8xp2i"]
+[ext_resource type="Texture2D" uid="uid://b1fpsxwxotslo" path="res://assets/Towers/Tower Electric/Tower Electric Lv02/Electric Tower-Tower Electric Lv02_06.png" id="17_jim4f"]
+[ext_resource type="Texture2D" uid="uid://bsconghp7lypq" path="res://assets/Towers/Tower Electric/Tower Electric Lv02/Electric Tower-Tower Electric Lv02_07.png" id="18_k0j8r"]
+[ext_resource type="Texture2D" uid="uid://dvw8ouvdkufpk" path="res://assets/Towers/Tower Electric/Tower Electric Lv02/Electric Tower-Tower Electric Lv02_08.png" id="19_gfou5"]
+[ext_resource type="Texture2D" uid="uid://c6c7rk0teekdg" path="res://assets/Towers/Tower Electric/Tower Electric Lv02/Electric Tower-Tower Electric Lv02_09.png" id="20_50bkw"]
+[ext_resource type="Texture2D" uid="uid://yjtdnf28d8ia" path="res://assets/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_00.png" id="21_lhvvy"]
+[ext_resource type="Texture2D" uid="uid://r2thjxl1sp1d" path="res://assets/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_01.png" id="22_uif8c"]
+[ext_resource type="Texture2D" uid="uid://dxxcm45bxvshk" path="res://assets/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_02.png" id="23_l3h2d"]
+[ext_resource type="Texture2D" uid="uid://cgibfhtc8d5p4" path="res://assets/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_03.png" id="24_wrpyt"]
+[ext_resource type="Texture2D" uid="uid://71ryo3xtyvq3" path="res://assets/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_04.png" id="25_e5cfq"]
+[ext_resource type="Texture2D" uid="uid://cl4isg8vski01" path="res://assets/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_05.png" id="26_1hmp2"]
+[ext_resource type="Texture2D" uid="uid://cmbh6l4l2jfrv" path="res://assets/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_06.png" id="27_egkfy"]
+[ext_resource type="Texture2D" uid="uid://cpmtxbccy37n4" path="res://assets/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_07.png" id="28_xjwci"]
+[ext_resource type="Texture2D" uid="uid://diif5gfc8ol7b" path="res://assets/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_08.png" id="29_rpw5f"]
+[ext_resource type="Texture2D" uid="uid://dk2nja8x7e5lh" path="res://assets/Towers/Tower Electric/Tower Electric Lv03/Electric Tower-Tower Electric Lv03_09.png" id="30_xolvu"]
+[ext_resource type="Texture2D" uid="uid://dy27lh87cy1ii" path="res://assets/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_00.png" id="31_3760v"]
+[ext_resource type="Texture2D" uid="uid://bj18xrsvix76s" path="res://assets/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_01.png" id="32_3a6yi"]
+[ext_resource type="Texture2D" uid="uid://dypc1u7aisibh" path="res://assets/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_02.png" id="33_jfqpo"]
+[ext_resource type="Texture2D" uid="uid://co0x0y8peqske" path="res://assets/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_03.png" id="34_6aw8v"]
+[ext_resource type="Texture2D" uid="uid://bkkyoq7yo1s0c" path="res://assets/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_04.png" id="35_ea8ug"]
+[ext_resource type="Texture2D" uid="uid://b7afepcsvy2ia" path="res://assets/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_05.png" id="36_7cggs"]
+[ext_resource type="Texture2D" uid="uid://47jijntujvvs" path="res://assets/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_06.png" id="37_advaa"]
+[ext_resource type="Texture2D" uid="uid://63uimpcqpsqr" path="res://assets/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_07.png" id="38_bo0tt"]
+[ext_resource type="Texture2D" uid="uid://tuex3jk7yrcw" path="res://assets/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_08.png" id="39_v2sum"]
+[ext_resource type="Texture2D" uid="uid://bgi4dp117mur7" path="res://assets/Towers/Tower Electric/Tower Electric Lv04/Electric Tower-Tower Electric Lv04_09.png" id="40_a5s85"]
+[ext_resource type="Texture2D" uid="uid://cbkmp850ri80q" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_00.png" id="41_62quw"]
+[ext_resource type="Texture2D" uid="uid://dyr2bfsjoeaag" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_01.png" id="42_orj3c"]
+[ext_resource type="Texture2D" uid="uid://c2tf6o4b1t2vm" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_02.png" id="43_7qj5f"]
+[ext_resource type="Texture2D" uid="uid://cix0cs17cn30y" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_03.png" id="44_favi0"]
+[ext_resource type="Texture2D" uid="uid://d3tmbghkwy8lj" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_04.png" id="45_ui4aw"]
+[ext_resource type="Texture2D" uid="uid://b3vpbo4msnp22" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_05.png" id="46_xkak5"]
+[ext_resource type="Texture2D" uid="uid://cd5dkfbnn5s5l" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_06.png" id="47_g8w22"]
+[ext_resource type="Texture2D" uid="uid://dgiwum7xeaqji" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_07.png" id="48_ejxp7"]
+[ext_resource type="Texture2D" uid="uid://bbihxcniyv3n8" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_08.png" id="49_phykb"]
+[ext_resource type="Texture2D" uid="uid://bjk1rj1lwu4d7" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_09.png" id="50_mg1ww"]
+[ext_resource type="Texture2D" uid="uid://2ayhbvln4w88" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_10.png" id="51_2jh7x"]
+[ext_resource type="Texture2D" uid="uid://bpxrwrbgw3hyt" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_11.png" id="52_2lbad"]
+[ext_resource type="Texture2D" uid="uid://drpw25cln5sqb" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_12.png" id="53_j8uws"]
+[ext_resource type="Texture2D" uid="uid://blqse1d0fsmoa" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_13.png" id="54_ls7el"]
+[ext_resource type="Texture2D" uid="uid://g1rb5nlkj835" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_14.png" id="55_uswd6"]
+[ext_resource type="Texture2D" uid="uid://svycums7kgty" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_15.png" id="56_0fk3l"]
+[ext_resource type="Texture2D" uid="uid://cm7anam2wbu65" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_16.png" id="57_3gjum"]
+[ext_resource type="Texture2D" uid="uid://k4fwbj5rkmfc" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_17.png" id="58_lebb6"]
+[ext_resource type="Texture2D" uid="uid://dac5if1aos48c" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_18.png" id="59_ad02n"]
+[ext_resource type="Texture2D" uid="uid://d1adf3xjh4tyn" path="res://assets/Towers/Tower Electric/Tower Electric Lv05/Electric Tower-Tower Electric Lv05_19.png" id="60_x4pmh"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_h7snv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_2jdby")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_t2m0j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_vylg7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_3h0jy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_yo7sh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_okx36")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_43yiq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_3arcv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_yhhqa")
+}],
+"loop": true,
+"name": &"level_1",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("11_ftr50")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_3aren")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_1l60r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_t3yay")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_sw2gd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_8xp2i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_jim4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_k0j8r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_gfou5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_50bkw")
+}],
+"loop": true,
+"name": &"level_2",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_lhvvy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_uif8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_l3h2d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_wrpyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_e5cfq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_1hmp2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_egkfy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_xjwci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_rpw5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_xolvu")
+}],
+"loop": true,
+"name": &"level_3",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_3760v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_3a6yi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_jfqpo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_6aw8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ea8ug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_7cggs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_advaa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_bo0tt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_v2sum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_a5s85")
+}],
+"loop": true,
+"name": &"level_4",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("41_62quw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_orj3c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_7qj5f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_favi0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_ui4aw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_xkak5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_g8w22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_ejxp7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_phykb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_mg1ww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_2jh7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_2lbad")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_j8uws")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_ls7el")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_uswd6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_0fk3l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_3gjum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_lebb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_ad02n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_x4pmh")
+}],
+"loop": true,
+"name": &"level_5",
+"speed": 20.0
+}]

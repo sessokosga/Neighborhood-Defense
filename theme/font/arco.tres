@@ -1,0 +1,6 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://dppfr2bydc6ky"]
+
+[ext_resource type="FontFile" uid="uid://dup5gg80k7d5v" path="res://assets/fonts/ARCO.ttf" id="1_wkd4h"]
+
+[resource]
+base_font = ExtResource("1_wkd4h")

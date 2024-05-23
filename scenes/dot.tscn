@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://x15if6p4oqa5"]
+
+[ext_resource type="Texture2D" uid="uid://bsdj1js70w1c4" path="res://assets/Upgrade and help popup/Artboard 6.png" id="1_13rb6"]
+[ext_resource type="Script" path="res://scripts/dot.gd" id="2_862v5"]
+
+[node name="Dot" type="TextureButton"]
+auto_translate_mode = 1
+offset_right = 16.0
+offset_bottom = 15.0
+toggle_mode = true
+texture_pressed = ExtResource("1_13rb6")
+texture_hover = ExtResource("1_13rb6")
+stretch_mode = 3
+script = ExtResource("2_862v5")
+
+[connection signal="toggled" from="." to="." method="_on_toggled"]

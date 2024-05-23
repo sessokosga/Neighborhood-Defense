@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=3 uid="uid://51vw4iy18ed8"]
+
+[ext_resource type="Script" path="res://scripts/tower.gd" id="1_2gl7d"]
+[ext_resource type="Texture2D" uid="uid://c0cigv0n1xvqc" path="res://assets/Towers/Tower Archer/Base.png" id="2_4l51e"]
+[ext_resource type="SpriteFrames" uid="uid://cmwl3wapab01v" path="res://scenes/towers_animations/sniper_tower.tres" id="3_72448"]
+[ext_resource type="SpriteFrames" uid="uid://be3164lonhsyh" path="res://scenes/towers_animations/bomber.tres" id="4_j74y5"]
+[ext_resource type="Texture2D" uid="uid://x15sdrr82ita" path="res://assets/Projectile/Bullet.png" id="5_5gx4v"]
+[ext_resource type="Texture2D" uid="uid://lct1qvu84j0p" path="res://assets/Projectile/Arrow.png" id="6_6sel3"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_40hvh"]
+resource_local_to_scene = true
+radius = 150.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_npq0n"]
+size = Vector2(149, 198)
+
+[node name="Tower" type="Area2D"]
+script = ExtResource("1_2gl7d")
+
+[node name="Base" type="Sprite2D" parent="."]
+position = Vector2(11, 52)
+texture = ExtResource("2_4l51e")
+
+[node name="Building" type="AnimatedSprite2D" parent="."]
+position = Vector2(11, 39)
+sprite_frames = ExtResource("3_72448")
+animation = &"level_5"
+
+[node name="Soldier" type="AnimatedSprite2D" parent="."]
+position = Vector2(4, 16)
+sprite_frames = ExtResource("4_j74y5")
+animation = &"level_1_idle"
+
+[node name="Bullet" type="Sprite2D" parent="Soldier"]
+visible = false
+position = Vector2(-42, 28)
+rotation = 0.909317
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("5_5gx4v")
+
+[node name="Arrow" type="Sprite2D" parent="Soldier"]
+visible = false
+position = Vector2(-17, 18)
+rotation = -2.35619
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("6_6sel3")
+
+[node name="TowerRange" type="CollisionShape2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(6, 53)
+shape = SubResource("CircleShape2D_40hvh")
+debug_color = Color(0, 0.6, 0.701961, 0.266667)
+
+[node name="RangeMouse" type="CollisionShape2D" parent="."]
+position = Vector2(10.5, 51)
+shape = SubResource("RectangleShape2D_npq0n")
+debug_color = Color(0, 0.6, 0.701961, 0.266667)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]
